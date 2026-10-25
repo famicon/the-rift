@@ -1,0 +1,71 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 5924040,
+    "fog_color": 10924799,
+    "water_color": 8019184,
+    "water_fog_color": 2759274,
+    "particle": {
+      "options": {
+        "type": "realmbreak:storm_spark"
+      },
+      "probability": 0.03
+    },
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.crimson_forest.mood",
+      "tick_delay": 6000
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "realmbreak:gale_sentinel",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "realmbreak:storm_sprite",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "realmbreak:rift_wraith",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "realmbreak:ore_rift_shard"
+    ],
+    [],
+    [],
+    [
+      "realmbreak:spire_storm"
+    ],
+    []
+  ]
+}
