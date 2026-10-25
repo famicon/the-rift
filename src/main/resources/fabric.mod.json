@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "realmbreak",
+  "version": "${version}",
+  "name": "Realmbreak: Chronicles of the Rift",
+  "description": "A high-fantasy adventure: five questlines, five bosses, five dungeons, giant Skyrim-style structures, elemental magic skill trees and the Rift, a dimension where the magic plane collides with our world.",
+  "authors": [ "You" ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/realmbreak/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [ "com.realmbreak.Realmbreak" ],
+    "client": [ "com.realmbreak.client.RealmbreakClient" ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

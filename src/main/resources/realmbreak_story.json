@@ -1,0 +1,3524 @@
+{
+ "lines": [
+  {
+   "id": 1,
+   "element": "flame",
+   "name": "The Ember Crown",
+   "npc": "kaelen",
+   "boss": "ignarax",
+   "dungeon": "Cinderhold Citadel",
+   "blurb": "A fire lord, a dying fortress, and a tyrant who wears the Rift's heat like a crown."
+  },
+  {
+   "id": 2,
+   "element": "frost",
+   "name": "The Frozen Regent",
+   "npc": "seraphine",
+   "boss": "hrimgar",
+   "dungeon": "Frostspire Vault",
+   "blurb": "Winter has a throne now, and a king who will not let the snow melt."
+  },
+  {
+   "id": 3,
+   "element": "storm",
+   "name": "The Tempest Queen",
+   "npc": "vaelor",
+   "boss": "zephyra",
+   "dungeon": "Stormwatch Aerie",
+   "blurb": "Above the peaks a queen of thunder hoards the sky itself."
+  },
+  {
+   "id": 4,
+   "element": "verdant",
+   "name": "The Thornmother",
+   "npc": "elowen",
+   "boss": "sylvara",
+   "dungeon": "Elderroot Sanctum",
+   "blurb": "The Great Tree is hollow, and the thing within it is hungry."
+  },
+  {
+   "id": 5,
+   "element": "void",
+   "name": "The Hollow Star",
+   "npc": "ysmera",
+   "boss": "nyxoth",
+   "dungeon": "Hollow Observatory",
+   "blurb": "A star fell into the Rift and it is not shining anymore."
+  }
+ ],
+ "quests": [
+  {
+   "id": "l1q1",
+   "line": 1,
+   "idx": 1,
+   "title": "A Spark in the Ashes",
+   "giver": "maera",
+   "turnin": "maera",
+   "objectives": [
+    {
+     "type": "kill",
+     "target": "any_hostile",
+     "count": 5,
+     "dim": "",
+     "text": "Defeat hostile monsters"
+    },
+    {
+     "type": "collect",
+     "target": "rift_dust",
+     "count": 3,
+     "text": "Gather Rift Dust from fallen magical foes"
+    }
+   ],
+   "offer": [
+    "Ah, a traveller with steady hands. I am Maera. I watch the sky for tears, and lately it has been tearing.",
+    "Take this staff and this journal. Prove you can fight, and bring me glimmering dust from the things that stalk the night."
+   ],
+   "progress": [
+    "The dust only falls from creatures touched by the Rift. Hunt them after dark."
+   ],
+   "done": [
+    "Good. You have a Riftwalker's knack. The dust hums in your pack, can you feel it?",
+    "There is a scar in the land not far from here. I will tell you where. Come back when you have your courage."
+   ],
+   "rewards": [
+    {
+     "id": "mana_elixir",
+     "count": 2
+    },
+    {
+     "id": "minecraft:bread",
+     "count": 8
+    }
+   ],
+   "points": 1,
+   "xp": 60,
+   "give": [
+    {
+     "id": "apprentice_staff",
+     "count": 1
+    },
+    {
+     "id": "quest_journal",
+     "count": 1
+    },
+    {
+     "id": "seekers_compass",
+     "count": 1
+    }
+   ],
+   "start_cs": "intro",
+   "end_cs": "",
+   "requires": "",
+   "summary": "Meet Maera and prove yourself against the things that stalk the night."
+  },
+  {
+   "id": "l1q2",
+   "line": 1,
+   "idx": 2,
+   "title": "Through the Scar",
+   "giver": "maera",
+   "turnin": "maera",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 16,
+     "count": 1,
+     "text": "Find and touch the Landmark Stone at a Rift Scar",
+     "dim": ""
+    },
+    {
+     "type": "rift",
+     "count": 1,
+     "text": "Step through the Rift Gate"
+    },
+    {
+     "type": "collect",
+     "target": "rift_shard",
+     "count": 3,
+     "text": "Mine or loot 3 Rift Shards inside the Rift"
+    }
+   ],
+   "offer": [
+    "A Rift Scar is where the magic plane bleeds into our world. Follow your Seeker's Compass to one and touch its stone.",
+    "Then step through the gate. The Rift will be beautiful, and it will try to kill you. Bring back three shards."
+   ],
+   "progress": [
+    "Three Rift Shards, and a safe return. The Scar will take you in; the gate on the other side will bring you home."
+   ],
+   "done": [
+    "You went... and came back. By the stars, the Rift sings to you.",
+    "There are five great powers fraying there: Flame, Frost, Storm, Verdant and Void. Five wardens, five lords. Choose where to begin. Kaelen of the Ashen Bastion waits in the burning lands."
+   ],
+   "rewards": [
+    {
+     "id": "rift_anchor",
+     "count": 2
+    },
+    {
+     "id": "vitality_elixir",
+     "count": 2
+    }
+   ],
+   "points": 1,
+   "xp": 100,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l1q1",
+   "summary": "Find a Rift Scar, cross into the Rift, and return with Rift Shards."
+  },
+  {
+   "id": "l1q3",
+   "line": 1,
+   "idx": 3,
+   "title": "The Warden of Ash",
+   "giver": "maera",
+   "turnin": "kaelen",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 21,
+     "count": 1,
+     "text": "Reach the Ashen Bastion",
+     "dim": ""
+    },
+    {
+     "type": "kill",
+     "target": "ember_mage",
+     "count": 4,
+     "dim": "rift",
+     "text": "Defeat Ember Mages in the Rift"
+    },
+    {
+     "type": "talk",
+     "target": "kaelen",
+     "count": 1,
+     "text": "Speak with Lord Kaelen"
+    }
+   ],
+   "offer": [
+    "Lord Kaelen Emberhart holds the Ashen Bastion against the Cinder Tyrant. He will not trust you until you have bled for the cause.",
+    "Find the Bastion, then burn out the Ember Mages in the Rift that feed the Tyrant's fire."
+   ],
+   "progress": [
+    "The Ember Mages gather in the Rift's ash plains. Bring their ashes to Kaelen."
+   ],
+   "done": [
+    "You smell of smoke and victory. Good. I am Kaelen, last warden of the Cinderhold.",
+    "Take this armour. It was my father's. Wear it and the fire may hesitate."
+   ],
+   "rewards": [
+    {
+     "id": "cinder_helmet",
+     "count": 1
+    },
+    {
+     "id": "cinder_boots",
+     "count": 1
+    }
+   ],
+   "points": 1,
+   "xp": 120,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l1q2",
+   "summary": "Reach the Ashen Bastion, weaken the Rift's Ember Mages and speak with Lord Kaelen."
+  },
+  {
+   "id": "l1q4",
+   "line": 1,
+   "idx": 4,
+   "title": "Where the Dragon Fell",
+   "giver": "kaelen",
+   "turnin": "kaelen",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 11,
+     "count": 1,
+     "text": "Touch the stone among the Dragon Bones",
+     "dim": ""
+    },
+    {
+     "type": "attune",
+     "site": 0,
+     "count": 1,
+     "text": "Attune to the Altar of Flame in the Rift",
+     "dim": "rift"
+    },
+    {
+     "type": "collect",
+     "target": "flame_essence",
+     "count": 6,
+     "text": "Gather Flame Essence"
+    }
+   ],
+   "offer": [
+    "A dragon died in these hills long ago. Its heart-fire seeped into the Rift and became the Altar of Flame.",
+    "Attune yourself at both, and gather essence. Ignarax's crown can only be answered with flame of the same kind."
+   ],
+   "progress": [
+    "Dragon Bones in the overworld, the Altar of Flame in the Rift. Six essences besides."
+   ],
+   "done": [
+    "The fire accepts you! I did not think it would, not after the Tyrant. Here, the rest of my armour.",
+    "Now we hold the key to the Cinderhold. The way in lies behind a gate that no mortal has opened in a century."
+   ],
+   "rewards": [
+    {
+     "id": "cinder_chestplate",
+     "count": 1
+    },
+    {
+     "id": "cinder_leggings",
+     "count": 1
+    }
+   ],
+   "points": 1,
+   "xp": 140,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l1q3",
+   "summary": "Attune to the Dragon Bones and the Rift's Altar of Flame."
+  },
+  {
+   "id": "l1q5",
+   "line": 1,
+   "idx": 5,
+   "title": "The Cinderhold",
+   "giver": "kaelen",
+   "turnin": "kaelen",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 5,
+     "count": 1,
+     "text": "Reach the Gates of Cinderhold",
+     "dim": ""
+    },
+    {
+     "type": "kill",
+     "target": "cinder_knight",
+     "count": 6,
+     "dim": "",
+     "text": "Slay Cinder Knights"
+    },
+    {
+     "type": "kill",
+     "target": "rift_wraith",
+     "count": 3,
+     "dim": "rift",
+     "text": "Banish Rift Wraiths in the Rift"
+    },
+    {
+     "type": "collect",
+     "target": "flame_sigil",
+     "count": 1,
+     "text": "Take the Sigil of Flame from the vault"
+    }
+   ],
+   "offer": [
+    "Cinderhold Citadel, my family's home, now a black fortress ringed by lava. The Tyrant's knights guard every hall.",
+    "Fight through to the vault beneath the keep and take the Sigil of Flame. And clear the Wraiths in the Rift, or they will reinforce the Citadel through the scars."
+   ],
+   "progress": [
+    "The vault lies beneath the great hall. Mind the lava on the second floor."
+   ],
+   "done": [
+    "The Sigil... I thought I would never hold it again. Hold it well. It is the key to the throne.",
+    "Take this blade, Cinderfang, and this staff. You will need them."
+   ],
+   "rewards": [
+    {
+     "id": "cinder_sword",
+     "count": 1
+    },
+    {
+     "id": "cinder_staff",
+     "count": 1
+    }
+   ],
+   "points": 1,
+   "xp": 200,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l1q4",
+   "summary": "Storm Cinderhold Citadel and take the Sigil of Flame."
+  },
+  {
+   "id": "l1q6",
+   "line": 1,
+   "idx": 6,
+   "title": "The Cinder Tyrant",
+   "giver": "kaelen",
+   "turnin": "kaelen",
+   "objectives": [
+    {
+     "type": "rift",
+     "count": 1,
+     "text": "Be in the Rift when the Tyrant is struck down"
+    },
+    {
+     "type": "boss",
+     "target": "ignarax",
+     "count": 1,
+     "text": "Defeat Ignarax, the Cinder Tyrant"
+    },
+    {
+     "type": "talk",
+     "target": "kaelen",
+     "count": 1,
+     "text": "Return to Lord Kaelen"
+    }
+   ],
+   "offer": [
+    "Climb to the Throne of Cinders and place the Sigil on the altar. Ignarax will rise.",
+    "His fire is bound to the Rift. Strike him down and the Rift will feel it. Make sure you are near a gate when you do."
+   ],
+   "progress": [
+    "The Tyrant waits at the top of the Citadel. Place the Sigil of Flame on the altar."
+   ],
+   "done": [
+    "It is quiet. The ash is... settling. You did it. The Ember Crown is no more.",
+    "The Rift calls to you. Choose another warden. The world needs a Riftwalker."
+   ],
+   "rewards": [
+    {
+     "id": "cinder_bow",
+     "count": 1
+    },
+    {
+     "id": "flame_essence",
+     "count": 8
+    },
+    {
+     "id": "tome_of_insight",
+     "count": 1
+    }
+   ],
+   "points": 2,
+   "xp": 400,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "finale_flame",
+   "requires": "l1q5",
+   "summary": "Defeat Ignarax and end the Ember Crown."
+  },
+  {
+   "id": "l2q1",
+   "line": 2,
+   "idx": 1,
+   "title": "Frostbitten Whispers",
+   "giver": "seraphine",
+   "turnin": "seraphine",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 22,
+     "count": 1,
+     "text": "Reach Frostwatch Hold",
+     "dim": ""
+    },
+    {
+     "type": "talk",
+     "target": "seraphine",
+     "count": 1,
+     "text": "Speak with Seraphine Frostwhisper"
+    },
+    {
+     "type": "kill",
+     "target": "any_hostile",
+     "count": 6,
+     "dim": "",
+     "text": "Defeat hostile monsters"
+    }
+   ],
+   "offer": [
+    "Cold finds everyone. Few wish to be found by it. I am Seraphine, keeper of Frostwatch.",
+    "My watch is failing. Prove you can hold a line, and I will tell you why the snow never stops."
+   ],
+   "progress": [
+    "Six monsters, then return. The hold is quieter when the wolves are dead."
+   ],
+   "done": [
+    "The hold holds, for now. Listen: a regent sits in the Frostspire and sings winter into the world. His song carries into the Rift.",
+    "Follow the cold. You will find where it begins."
+   ],
+   "rewards": [
+    {
+     "id": "vitality_elixir",
+     "count": 2
+    },
+    {
+     "id": "minecraft:cooked_beef",
+     "count": 8
+    }
+   ],
+   "points": 1,
+   "xp": 80,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l1q2",
+   "summary": "Reach Frostwatch Hold and earn Seraphine's trust."
+  },
+  {
+   "id": "l2q2",
+   "line": 2,
+   "idx": 2,
+   "title": "Winter Beyond the Veil",
+   "giver": "seraphine",
+   "turnin": "seraphine",
+   "objectives": [
+    {
+     "type": "rift",
+     "count": 1,
+     "text": "Enter the Rift"
+    },
+    {
+     "type": "kill",
+     "target": "rime_wraith",
+     "count": 4,
+     "dim": "rift",
+     "text": "Banish Rime Wraiths in the Rift"
+    },
+    {
+     "type": "collect",
+     "target": "frost_essence",
+     "count": 4,
+     "text": "Gather Frost Essence"
+    }
+   ],
+   "offer": [
+    "Hrimgar's court is not only in the Frostspire. The Rift has its own Frost Expanse where his wraiths drift unchecked.",
+    "Go through a gate. Banish four Rime Wraiths. Their essence will tell us what he is."
+   ],
+   "progress": [
+    "Rime Wraiths cling to frozen ground in the Rift. They bite like the wind."
+   ],
+   "done": [
+    "This essence... it is not natural. It is a heartbeat, slowed to a crawl.",
+    "Here, wear the cold as a cloak. It will not sting you now."
+   ],
+   "rewards": [
+    {
+     "id": "rime_helmet",
+     "count": 1
+    },
+    {
+     "id": "rime_boots",
+     "count": 1
+    }
+   ],
+   "points": 1,
+   "xp": 120,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l2q1",
+   "summary": "Cross into the Rift and banish the Rime Wraiths."
+  },
+  {
+   "id": "l2q3",
+   "line": 2,
+   "idx": 3,
+   "title": "Altar of Frost",
+   "giver": "seraphine",
+   "turnin": "seraphine",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 1,
+     "count": 1,
+     "text": "Attune to the Altar of Frost in the Rift",
+     "dim": "rift"
+    },
+    {
+     "type": "attune",
+     "site": 10,
+     "count": 1,
+     "text": "Touch the Standing Stones in the overworld",
+     "dim": ""
+    },
+    {
+     "type": "collect",
+     "target": "rift_shard",
+     "count": 5,
+     "text": "Gather Rift Shards"
+    }
+   ],
+   "offer": [
+    "There is an Altar of Frost in the Rift, and an older circle of standing stones here. Both remember the first winter.",
+    "Touch both and bring me five Rift Shards. I will make a ward."
+   ],
+   "progress": [
+    "The Altar floats on its own island somewhere in the Rift. The stones stand on the plains."
+   ],
+   "done": [
+    "The stones are warm?! Impossible. And yet, the Altar answered you as well.",
+    "Take the rest of the Rimeweave. Winter will not take you."
+   ],
+   "rewards": [
+    {
+     "id": "rime_chestplate",
+     "count": 1
+    },
+    {
+     "id": "rime_leggings",
+     "count": 1
+    }
+   ],
+   "points": 1,
+   "xp": 140,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l2q2",
+   "summary": "Attune to the Altar of Frost and the Standing Stones."
+  },
+  {
+   "id": "l2q4",
+   "line": 2,
+   "idx": 4,
+   "title": "The Rimebound Archive",
+   "giver": "seraphine",
+   "turnin": "seraphine",
+   "objectives": [
+    {
+     "type": "kill",
+     "target": "frost_crawler",
+     "count": 5,
+     "dim": "rift",
+     "text": "Slay Frost Crawlers in the Rift"
+    },
+    {
+     "type": "collect",
+     "target": "ancient_rune",
+     "count": 1,
+     "text": "Find an Ancient Rune in a ruin or vault"
+    },
+    {
+     "type": "talk",
+     "target": "seraphine",
+     "count": 1,
+     "text": "Bring the rune to Seraphine"
+    }
+   ],
+   "offer": [
+    "An archive lies sealed in ice below Frostwatch, and its key is an Ancient Rune. They turn up in ruins and vaults.",
+    "And the crawlers in the Rift have been chewing the ice from below. Thin them out."
+   ],
+   "progress": [
+    "Ancient Runes sit in dungeon chests. Frost Crawlers swarm in the Rift's ice."
+   ],
+   "done": [
+    "Aldric's script. The Last King wrote the sealing runes. The Regent was his friend, once.",
+    "It is a long story. Take it with you: the vault of Frostspire."
+   ],
+   "rewards": [
+    {
+     "id": "rime_sword",
+     "count": 1
+    },
+    {
+     "id": "mana_elixir",
+     "count": 3
+    }
+   ],
+   "points": 1,
+   "xp": 160,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l2q3",
+   "summary": "Find an Ancient Rune and thin the Frost Crawlers in the Rift."
+  },
+  {
+   "id": "l2q5",
+   "line": 2,
+   "idx": 5,
+   "title": "The Frostspire Vault",
+   "giver": "seraphine",
+   "turnin": "seraphine",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 6,
+     "count": 1,
+     "text": "Reach the Gates of Frostspire",
+     "dim": ""
+    },
+    {
+     "type": "kill",
+     "target": "rime_wraith",
+     "count": 6,
+     "dim": "",
+     "text": "Banish Rime Wraiths"
+    },
+    {
+     "type": "kill",
+     "target": "frost_crawler",
+     "count": 4,
+     "dim": "rift",
+     "text": "Crush Frost Crawlers in the Rift"
+    },
+    {
+     "type": "collect",
+     "target": "frost_sigil",
+     "count": 1,
+     "text": "Take the Sigil of Frost from the vault"
+    }
+   ],
+   "offer": [
+    "Frostspire Vault: a crystal tower ringed with frozen water. The vault is beneath it.",
+    "Take the Sigil of Frost. And clear the crawlers in the Rift; they are digging through to the Vault from below."
+   ],
+   "progress": [
+    "The vault is below the great hall, past a stair behind the tower."
+   ],
+   "done": [
+    "The Sigil of Frost. It is so cold it burns. Hrimgar will feel it from here.",
+    "Take Rimebrand and a staff. Do not enter his hall unprepared."
+   ],
+   "rewards": [
+    {
+     "id": "rime_staff",
+     "count": 1
+    },
+    {
+     "id": "minecraft:golden_apple",
+     "count": 2
+    }
+   ],
+   "points": 1,
+   "xp": 200,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l2q4",
+   "summary": "Take the Sigil of Frost from Frostspire Vault."
+  },
+  {
+   "id": "l2q6",
+   "line": 2,
+   "idx": 6,
+   "title": "The Frozen Regent",
+   "giver": "seraphine",
+   "turnin": "seraphine",
+   "objectives": [
+    {
+     "type": "rift",
+     "count": 1,
+     "text": "Be in the Rift when winter breaks"
+    },
+    {
+     "type": "boss",
+     "target": "hrimgar",
+     "count": 1,
+     "text": "Defeat Hrimgar, the Frozen Regent"
+    },
+    {
+     "type": "talk",
+     "target": "seraphine",
+     "count": 1,
+     "text": "Return to Seraphine"
+    }
+   ],
+   "offer": [
+    "At the top of the Spire, place the Sigil on the altar. Hrimgar will wake. He was a good man once.",
+    "Whatever he says, finish it. The Rift will thaw when he falls."
+   ],
+   "progress": [
+    "The Regent waits in the crown of the spire. Dress warm."
+   ],
+   "done": [
+    "The snow... it is melting. Look. Look! Thank you, Riftwalker.",
+    "Take the Hoarfrost Bow, and Seraphine's blessing."
+   ],
+   "rewards": [
+    {
+     "id": "rime_bow",
+     "count": 1
+    },
+    {
+     "id": "frost_essence",
+     "count": 8
+    },
+    {
+     "id": "tome_of_insight",
+     "count": 1
+    }
+   ],
+   "points": 2,
+   "xp": 400,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "finale_frost",
+   "requires": "l2q5",
+   "summary": "Defeat Hrimgar and thaw the north."
+  },
+  {
+   "id": "l3q1",
+   "line": 3,
+   "idx": 1,
+   "title": "Winds of War",
+   "giver": "vaelor",
+   "turnin": "vaelor",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 23,
+     "count": 1,
+     "text": "Reach Stormwatch Perch",
+     "dim": ""
+    },
+    {
+     "type": "talk",
+     "target": "vaelor",
+     "count": 1,
+     "text": "Speak with Captain Vaelor"
+    },
+    {
+     "type": "kill",
+     "target": "any_hostile",
+     "count": 6,
+     "dim": "",
+     "text": "Defeat hostile monsters"
+    }
+   ],
+   "offer": [
+    "Captain Vaelor, Skyreaver. You are standing on the last perch that still has a roof.",
+    "Zephyra hoards the thunder. I need fighters who do not flinch at lightning. Six kills. Go."
+   ],
+   "progress": [
+    "The monsters come at dusk. Watch the sky."
+   ],
+   "done": [
+    "You did not flinch. Mostly. Fine.",
+    "The Queen's storms leak into the Rift. Follow them and you will find where the sky is bleeding."
+   ],
+   "rewards": [
+    {
+     "id": "mana_elixir",
+     "count": 2
+    },
+    {
+     "id": "minecraft:cooked_chicken",
+     "count": 8
+    }
+   ],
+   "points": 1,
+   "xp": 80,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l1q2",
+   "summary": "Reach Stormwatch Perch and prove yourself to Captain Vaelor."
+  },
+  {
+   "id": "l3q2",
+   "line": 3,
+   "idx": 2,
+   "title": "Skyfall into the Rift",
+   "giver": "vaelor",
+   "turnin": "vaelor",
+   "objectives": [
+    {
+     "type": "rift",
+     "count": 1,
+     "text": "Enter the Rift"
+    },
+    {
+     "type": "kill",
+     "target": "storm_sprite",
+     "count": 5,
+     "dim": "rift",
+     "text": "Disperse Storm Sprites in the Rift"
+    },
+    {
+     "type": "collect",
+     "target": "storm_essence",
+     "count": 4,
+     "text": "Gather Storm Essence"
+    }
+   ],
+   "offer": [
+    "Storm sprites riding the Rift's thunderclouds are the Queen's scouts.",
+    "Through a gate. Kill five sprites. Bring me the essence they drop. I want to feel what we are up against."
+   ],
+   "progress": [
+    "Sprites cluster on the Rift's highlands. They crackle."
+   ],
+   "done": [
+    "It sings under my fingers. Beautiful, horrible stuff.",
+    "Galeguard, light as a gust, strong as a gale."
+   ],
+   "rewards": [
+    {
+     "id": "gale_helmet",
+     "count": 1
+    },
+    {
+     "id": "gale_boots",
+     "count": 1
+    }
+   ],
+   "points": 1,
+   "xp": 120,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l3q1",
+   "summary": "Cross the Rift and disperse the Queen's Storm Sprites."
+  },
+  {
+   "id": "l3q3",
+   "line": 3,
+   "idx": 3,
+   "title": "Altar of Storm",
+   "giver": "vaelor",
+   "turnin": "vaelor",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 2,
+     "count": 1,
+     "text": "Attune to the Altar of Storm in the Rift",
+     "dim": "rift"
+    },
+    {
+     "type": "attune",
+     "site": 14,
+     "count": 1,
+     "text": "Touch the stone beneath the Titan's Arch",
+     "dim": ""
+    },
+    {
+     "type": "collect",
+     "target": "rift_shard",
+     "count": 5,
+     "text": "Gather Rift Shards"
+    }
+   ],
+   "offer": [
+    "The Titan's Arch is a gate no titan ever walked through. It points at the Altar of Storm in the Rift.",
+    "Touch both and the lightning will recognise you."
+   ],
+   "progress": [
+    "The Arch stands in the peaks. The Altar floats in the Rift's sky."
+   ],
+   "done": [
+    "The lightning does not strike you. That is... new.",
+    "Take the rest of the Galeguard."
+   ],
+   "rewards": [
+    {
+     "id": "gale_chestplate",
+     "count": 1
+    },
+    {
+     "id": "gale_leggings",
+     "count": 1
+    }
+   ],
+   "points": 1,
+   "xp": 140,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l3q2",
+   "summary": "Attune to the Titan's Arch and the Altar of Storm."
+  },
+  {
+   "id": "l3q4",
+   "line": 3,
+   "idx": 4,
+   "title": "The Lightning Rods",
+   "giver": "vaelor",
+   "turnin": "vaelor",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 12,
+     "count": 1,
+     "text": "Reach the Ruined Watchtower",
+     "dim": ""
+    },
+    {
+     "type": "kill",
+     "target": "gale_sentinel",
+     "count": 4,
+     "dim": "rift",
+     "text": "Topple Gale Sentinels in the Rift"
+    },
+    {
+     "type": "talk",
+     "target": "vaelor",
+     "count": 1,
+     "text": "Report to Vaelor"
+    }
+   ],
+   "offer": [
+    "An old watchtower on the plains has the only working lightning rods for a hundred miles. It will show us the shape of her storms.",
+    "And the Gale Sentinels in the Rift keep hammering at our wards. Break a few."
+   ],
+   "progress": [
+    "The Watchtower is ruined but intact where it matters."
+   ],
+   "done": [
+    "You read the storm like a Skyreaver. The pattern points straight at her aerie.",
+    "Take Thunderedge. It was my sister's."
+   ],
+   "rewards": [
+    {
+     "id": "gale_sword",
+     "count": 1
+    },
+    {
+     "id": "vitality_elixir",
+     "count": 3
+    }
+   ],
+   "points": 1,
+   "xp": 160,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l3q3",
+   "summary": "Visit the Ruined Watchtower and break the Rift's Gale Sentinels."
+  },
+  {
+   "id": "l3q5",
+   "line": 3,
+   "idx": 5,
+   "title": "Stormwatch Aerie",
+   "giver": "vaelor",
+   "turnin": "vaelor",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 7,
+     "count": 1,
+     "text": "Reach the Gates of Stormwatch Aerie",
+     "dim": ""
+    },
+    {
+     "type": "kill",
+     "target": "gale_sentinel",
+     "count": 6,
+     "dim": "",
+     "text": "Topple Gale Sentinels"
+    },
+    {
+     "type": "kill",
+     "target": "storm_sprite",
+     "count": 4,
+     "dim": "rift",
+     "text": "Disperse Storm Sprites in the Rift"
+    },
+    {
+     "type": "collect",
+     "target": "storm_sigil",
+     "count": 1,
+     "text": "Take the Sigil of Storm from the vault"
+    }
+   ],
+   "offer": [
+    "The Aerie is built on a mesa that was carved by lightning. A grand stair leads up. The vault is under the tower.",
+    "Bring me the Sigil of Storm. And thin the sprites, or they will carry it away on the wind."
+   ],
+   "progress": [
+    "The vault is under the great hall. Watch for slippery ice on the second floor."
+   ],
+   "done": [
+    "The Sigil! Look at that. I can feel my hair standing.",
+    "Take this staff. Zephyra will want it back."
+   ],
+   "rewards": [
+    {
+     "id": "gale_staff",
+     "count": 1
+    },
+    {
+     "id": "minecraft:golden_apple",
+     "count": 2
+    }
+   ],
+   "points": 1,
+   "xp": 200,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l3q4",
+   "summary": "Climb the Aerie and take the Sigil of Storm."
+  },
+  {
+   "id": "l3q6",
+   "line": 3,
+   "idx": 6,
+   "title": "The Tempest Queen",
+   "giver": "vaelor",
+   "turnin": "vaelor",
+   "objectives": [
+    {
+     "type": "rift",
+     "count": 1,
+     "text": "Be in the Rift when the storm breaks"
+    },
+    {
+     "type": "boss",
+     "target": "zephyra",
+     "count": 1,
+     "text": "Defeat Zephyra, the Tempest Queen"
+    },
+    {
+     "type": "talk",
+     "target": "vaelor",
+     "count": 1,
+     "text": "Return to Vaelor"
+    }
+   ],
+   "offer": [
+    "Place the Sigil at the crown of the Aerie. Zephyra will come down. Fight her in the lightning, not against it.",
+    "May the wind be at your back, Riftwalker."
+   ],
+   "progress": [
+    "The Queen is at the top of the Aerie. Hold your ground when she calls the thunder."
+   ],
+   "done": [
+    "The sky is clear. I forgot what that looked like.",
+    "The Stormcall Bow. Aim high."
+   ],
+   "rewards": [
+    {
+     "id": "gale_bow",
+     "count": 1
+    },
+    {
+     "id": "storm_essence",
+     "count": 8
+    },
+    {
+     "id": "tome_of_insight",
+     "count": 1
+    }
+   ],
+   "points": 2,
+   "xp": 400,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "finale_storm",
+   "requires": "l3q5",
+   "summary": "Defeat Zephyra and calm the sky."
+  },
+  {
+   "id": "l4q1",
+   "line": 4,
+   "idx": 1,
+   "title": "The Withering Grove",
+   "giver": "elowen",
+   "turnin": "elowen",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 24,
+     "count": 1,
+     "text": "Reach the Grovekeeper's Lodge",
+     "dim": ""
+    },
+    {
+     "type": "talk",
+     "target": "elowen",
+     "count": 1,
+     "text": "Speak with Elowen Oakshade"
+    },
+    {
+     "type": "kill",
+     "target": "any_hostile",
+     "count": 6,
+     "dim": "",
+     "text": "Defeat hostile monsters"
+    }
+   ],
+   "offer": [
+    "I am Elowen. The grove has been withering for a season. Something is eating the roots from below.",
+    "Clear the creatures that gnaw the saplings. Then we will talk about the Rift."
+   ],
+   "progress": [
+    "Six kills in the grove. They like the dark."
+   ],
+   "done": [
+    "The saplings breathe again. Thank you, stranger.",
+    "Look for the glimmering trees that bloom in the Rift. They are the grove's cousins."
+   ],
+   "rewards": [
+    {
+     "id": "vitality_elixir",
+     "count": 2
+    },
+    {
+     "id": "minecraft:apple",
+     "count": 8
+    }
+   ],
+   "points": 1,
+   "xp": 80,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l1q2",
+   "summary": "Reach the Grovekeeper's Lodge and clear the gnawing things."
+  },
+  {
+   "id": "l4q2",
+   "line": 4,
+   "idx": 2,
+   "title": "Glimmerwood",
+   "giver": "elowen",
+   "turnin": "elowen",
+   "objectives": [
+    {
+     "type": "rift",
+     "count": 1,
+     "text": "Enter the Rift"
+    },
+    {
+     "type": "collect",
+     "target": "glimmerwood_log",
+     "count": 8,
+     "text": "Chop Glimmerwood Logs in the Rift"
+    },
+    {
+     "type": "kill",
+     "target": "thorn_stalker",
+     "count": 4,
+     "dim": "rift",
+     "text": "Slay Thorn Stalkers in the Rift"
+    }
+   ],
+   "offer": [
+    "Glimmerwood grows only in the Rift, and it glows. The Thornmother is wrapping her roots around it.",
+    "Bring me eight logs. Cut a few thorn stalkers down while you are there."
+   ],
+   "progress": [
+    "The Verdant Canopy in the Rift has Glimmerwood, thick as walls."
+   ],
+   "done": [
+    "It sings, you can feel it. The grove's song, played backwards.",
+    "Wear thorn and bark. They will know you for a friend."
+   ],
+   "rewards": [
+    {
+     "id": "thorn_helmet",
+     "count": 1
+    },
+    {
+     "id": "thorn_boots",
+     "count": 1
+    }
+   ],
+   "points": 1,
+   "xp": 120,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l4q1",
+   "summary": "Chop Glimmerwood in the Rift and slay the Thorn Stalkers."
+  },
+  {
+   "id": "l4q3",
+   "line": 4,
+   "idx": 3,
+   "title": "Altar of Verdant",
+   "giver": "elowen",
+   "turnin": "elowen",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 3,
+     "count": 1,
+     "text": "Attune to the Altar of Verdant in the Rift",
+     "dim": "rift"
+    },
+    {
+     "type": "attune",
+     "site": 15,
+     "count": 1,
+     "text": "Touch the stone at the Moonwell",
+     "dim": ""
+    },
+    {
+     "type": "collect",
+     "target": "rift_shard",
+     "count": 5,
+     "text": "Gather Rift Shards"
+    }
+   ],
+   "offer": [
+    "The Moonwell and the Altar of Verdant are the grove's two hearts. One in your world, one in the Rift.",
+    "Touch both. Bring shards for a ward."
+   ],
+   "progress": [
+    "The Moonwell is hidden in the forest. The Altar floats in the Canopy."
+   ],
+   "done": [
+    "Both hearts beat for you. Rare.",
+    "The rest of the Thornbark."
+   ],
+   "rewards": [
+    {
+     "id": "thorn_chestplate",
+     "count": 1
+    },
+    {
+     "id": "thorn_leggings",
+     "count": 1
+    }
+   ],
+   "points": 1,
+   "xp": 140,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l4q2",
+   "summary": "Attune to the Moonwell and the Altar of Verdant."
+  },
+  {
+   "id": "l4q4",
+   "line": 4,
+   "idx": 4,
+   "title": "The Sleeping Giant",
+   "giver": "elowen",
+   "turnin": "elowen",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 13,
+     "count": 1,
+     "text": "Climb the Sleeping Colossus and touch its stone",
+     "dim": ""
+    },
+    {
+     "type": "kill",
+     "target": "bark_guardian",
+     "count": 4,
+     "dim": "rift",
+     "text": "Fell Bark Guardians in the Rift"
+    },
+    {
+     "type": "talk",
+     "target": "elowen",
+     "count": 1,
+     "text": "Return to Elowen"
+    }
+   ],
+   "offer": [
+    "There is a giant of stone who has been sleeping since before the Rift opened. He is the Thornmother's oldest enemy.",
+    "And the bark guardians... they were gentle once. See what troubles them."
+   ],
+   "progress": [
+    "The Colossus lies in the plains. Enter through its mouth."
+   ],
+   "done": [
+    "He stirs. Maybe not today. Soon.",
+    "Thornblade. Take it. It will not rot."
+   ],
+   "rewards": [
+    {
+     "id": "thorn_sword",
+     "count": 1
+    },
+    {
+     "id": "mana_elixir",
+     "count": 3
+    }
+   ],
+   "points": 1,
+   "xp": 160,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l4q3",
+   "summary": "Visit the Sleeping Colossus and calm the Rift's Bark Guardians."
+  },
+  {
+   "id": "l4q5",
+   "line": 4,
+   "idx": 5,
+   "title": "Elderroot Sanctum",
+   "giver": "elowen",
+   "turnin": "elowen",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 8,
+     "count": 1,
+     "text": "Reach the Gates of Elderroot",
+     "dim": ""
+    },
+    {
+     "type": "kill",
+     "target": "thorn_stalker",
+     "count": 6,
+     "dim": "",
+     "text": "Slay Thorn Stalkers"
+    },
+    {
+     "type": "kill",
+     "target": "bark_guardian",
+     "count": 4,
+     "dim": "",
+     "text": "Fell Bark Guardians"
+    },
+    {
+     "type": "collect",
+     "target": "verdant_sigil",
+     "count": 1,
+     "text": "Take the Sigil of Verdant from the vault"
+    }
+   ],
+   "offer": [
+    "Elderroot Sanctum is the Great Tree itself, hollowed out. The Thornmother lives at its crown. The vault is under the roots.",
+    "Take the Sigil. You will need it to wake her."
+   ],
+   "progress": [
+    "Mind the berry bushes on the second floor. They bite."
+   ],
+   "done": [
+    "The Sigil of Verdant. It is warm, and alive.",
+    "This staff is cut from a branch of the Great Tree."
+   ],
+   "rewards": [
+    {
+     "id": "thorn_staff",
+     "count": 1
+    },
+    {
+     "id": "minecraft:golden_apple",
+     "count": 2
+    }
+   ],
+   "points": 1,
+   "xp": 200,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l4q4",
+   "summary": "Descend into the roots of Elderroot and take the Sigil of Verdant."
+  },
+  {
+   "id": "l4q6",
+   "line": 4,
+   "idx": 6,
+   "title": "The Thornmother",
+   "giver": "elowen",
+   "turnin": "elowen",
+   "objectives": [
+    {
+     "type": "rift",
+     "count": 1,
+     "text": "Be in the Rift when she falls"
+    },
+    {
+     "type": "boss",
+     "target": "sylvara",
+     "count": 1,
+     "text": "Defeat Sylvara, the Thornmother"
+    },
+    {
+     "type": "talk",
+     "target": "elowen",
+     "count": 1,
+     "text": "Return to Elowen"
+    }
+   ],
+   "offer": [
+    "Climb the Great Tree and place the Sigil at its heart. Sylvara will rise.",
+    "Do not fear the thorns. Fear what she grows from your fear."
+   ],
+   "progress": [
+    "The Thornmother waits in the heart of the tree. Strike the roots too."
+   ],
+   "done": [
+    "The grove is green again. Look, the saplings stand.",
+    "The Wildwood Bow, for the Riftwalker who saved the Great Tree."
+   ],
+   "rewards": [
+    {
+     "id": "thorn_bow",
+     "count": 1
+    },
+    {
+     "id": "verdant_essence",
+     "count": 8
+    },
+    {
+     "id": "tome_of_insight",
+     "count": 1
+    }
+   ],
+   "points": 2,
+   "xp": 400,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "finale_verdant",
+   "requires": "l4q5",
+   "summary": "Defeat Sylvara and save the Great Tree."
+  },
+  {
+   "id": "l5q1",
+   "line": 5,
+   "idx": 1,
+   "title": "The Veiled Oracle",
+   "giver": "ysmera",
+   "turnin": "ysmera",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 25,
+     "count": 1,
+     "text": "Reach the Veiled Sanctum",
+     "dim": ""
+    },
+    {
+     "type": "talk",
+     "target": "ysmera",
+     "count": 1,
+     "text": "Speak with Ysmera the Veiled"
+    },
+    {
+     "type": "kill",
+     "target": "any_hostile",
+     "count": 6,
+     "dim": "",
+     "text": "Defeat hostile monsters"
+    }
+   ],
+   "offer": [
+    "I have seen you before, Riftwalker, in a sky that has not happened yet. I am Ysmera.",
+    "The Hollow Star is wakening. Prove yourself. Six of the things that creep in the night."
+   ],
+   "progress": [
+    "Night is thick with them tonight."
+   ],
+   "done": [
+    "The dark knows your name. Do not answer it.",
+    "The star fell into the Rift long ago. Go and see what it has become."
+   ],
+   "rewards": [
+    {
+     "id": "mana_elixir",
+     "count": 3
+    },
+    {
+     "id": "minecraft:golden_carrot",
+     "count": 8
+    }
+   ],
+   "points": 1,
+   "xp": 80,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l1q2",
+   "summary": "Reach the Veiled Sanctum and meet the Oracle."
+  },
+  {
+   "id": "l5q2",
+   "line": 5,
+   "idx": 2,
+   "title": "Hollow Star Rising",
+   "giver": "ysmera",
+   "turnin": "ysmera",
+   "objectives": [
+    {
+     "type": "rift",
+     "count": 1,
+     "text": "Enter the Rift"
+    },
+    {
+     "type": "kill",
+     "target": "void_acolyte",
+     "count": 4,
+     "dim": "rift",
+     "text": "Defeat Void Acolytes in the Rift"
+    },
+    {
+     "type": "collect",
+     "target": "void_essence",
+     "count": 4,
+     "text": "Gather Void Essence"
+    }
+   ],
+   "offer": [
+    "In the Void Expanse the acolytes kneel to a thing that is not there. Show them it is not there.",
+    "Bring me their essence. I need to read the shape of the hole."
+   ],
+   "progress": [
+    "The acolytes hum in the Void Expanse."
+   ],
+   "done": [
+    "The essence is a ledger of everything that was lost.",
+    "Nullveil. It will hide your footsteps from the dark."
+   ],
+   "rewards": [
+    {
+     "id": "null_helmet",
+     "count": 1
+    },
+    {
+     "id": "null_boots",
+     "count": 1
+    }
+   ],
+   "points": 1,
+   "xp": 120,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l5q1",
+   "summary": "Cross the Rift and quiet the Void Acolytes."
+  },
+  {
+   "id": "l5q3",
+   "line": 5,
+   "idx": 3,
+   "title": "Altar of Void",
+   "giver": "ysmera",
+   "turnin": "ysmera",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 4,
+     "count": 1,
+     "text": "Attune to the Altar of Void in the Rift",
+     "dim": "rift"
+    },
+    {
+     "type": "attune",
+     "site": 17,
+     "count": 1,
+     "text": "Touch the stone in the Crystal Cathedral",
+     "dim": "rift"
+    },
+    {
+     "type": "collect",
+     "target": "rift_shard",
+     "count": 6,
+     "text": "Gather Rift Shards"
+    }
+   ],
+   "offer": [
+    "The Crystal Cathedral and the Altar of Void hold the star's echo. Both are in the Rift. Do not look at the sky there for too long."
+   ],
+   "progress": [
+    "The Cathedral is a nave of crystal. The Altar floats in the dark."
+   ],
+   "done": [
+    "The echo stays with you. Do not be afraid of it.",
+    "The rest of the Nullveil."
+   ],
+   "rewards": [
+    {
+     "id": "null_chestplate",
+     "count": 1
+    },
+    {
+     "id": "null_leggings",
+     "count": 1
+    }
+   ],
+   "points": 1,
+   "xp": 140,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l5q2",
+   "summary": "Attune to the Crystal Cathedral and the Altar of Void."
+  },
+  {
+   "id": "l5q4",
+   "line": 5,
+   "idx": 4,
+   "title": "Echo of the Last King",
+   "giver": "ysmera",
+   "turnin": "ysmera",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 18,
+     "count": 1,
+     "text": "Reach the Fallen Keep",
+     "dim": "rift"
+    },
+    {
+     "type": "talk",
+     "target": "aldric_echo",
+     "count": 1,
+     "text": "Speak with the Echo of Aldric"
+    },
+    {
+     "type": "attune",
+     "site": 19,
+     "count": 1,
+     "text": "Touch the Rift Monolith",
+     "dim": "rift"
+    }
+   ],
+   "offer": [
+    "Aldric was the last king of the plane before the Rift. His echo lingers in the Fallen Keep. Ask him what he sealed.",
+    "And touch the Monolith he raised to hold the star."
+   ],
+   "progress": [
+    "Aldric's echo does not speak to the afraid."
+   ],
+   "done": [
+    "He told you? All of it? Then you know the price.",
+    "Nullblade. It will cut the dark."
+   ],
+   "rewards": [
+    {
+     "id": "null_sword",
+     "count": 1
+    },
+    {
+     "id": "vitality_elixir",
+     "count": 3
+    }
+   ],
+   "points": 1,
+   "xp": 160,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l5q3",
+   "summary": "Speak with the Echo of Aldric in the Rift."
+  },
+  {
+   "id": "l5q5",
+   "line": 5,
+   "idx": 5,
+   "title": "The Hollow Observatory",
+   "giver": "ysmera",
+   "turnin": "ysmera",
+   "objectives": [
+    {
+     "type": "attune",
+     "site": 9,
+     "count": 1,
+     "text": "Reach the Gates of the Hollow Observatory",
+     "dim": "rift"
+    },
+    {
+     "type": "kill",
+     "target": "void_acolyte",
+     "count": 6,
+     "dim": "",
+     "text": "Defeat Void Acolytes"
+    },
+    {
+     "type": "kill",
+     "target": "rift_stalker",
+     "count": 4,
+     "dim": "rift",
+     "text": "Slay Rift Stalkers in the Rift"
+    },
+    {
+     "type": "collect",
+     "target": "void_sigil",
+     "count": 1,
+     "text": "Take the Sigil of Void from the vault"
+    }
+   ],
+   "offer": [
+    "The Hollow Observatory floats in the Rift, where the star was studied and lost. The vault is under the dome.",
+    "Take the Sigil of Void. Make sure the stalkers do not follow you out."
+   ],
+   "progress": [
+    "The Observatory's upper floors are slippery with soul sand."
+   ],
+   "done": [
+    "The Sigil. It weighs nothing, and everything.",
+    "This staff leaves no shadow."
+   ],
+   "rewards": [
+    {
+     "id": "null_staff",
+     "count": 1
+    },
+    {
+     "id": "minecraft:golden_apple",
+     "count": 2
+    }
+   ],
+   "points": 1,
+   "xp": 200,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "",
+   "requires": "l5q4",
+   "summary": "Fly to the Hollow Observatory and take the Sigil of Void."
+  },
+  {
+   "id": "l5q6",
+   "line": 5,
+   "idx": 6,
+   "title": "The Hollow Star",
+   "giver": "ysmera",
+   "turnin": "ysmera",
+   "objectives": [
+    {
+     "type": "rift",
+     "count": 1,
+     "text": "Face the star in the Rift"
+    },
+    {
+     "type": "boss",
+     "target": "nyxoth",
+     "count": 1,
+     "text": "Defeat Nyxoth, the Hollow Star"
+    },
+    {
+     "type": "talk",
+     "target": "ysmera",
+     "count": 1,
+     "text": "Return to Ysmera"
+    }
+   ],
+   "offer": [
+    "At the top of the Observatory, place the Sigil. The Star will return. It has been waiting.",
+    "Do not look into it. Look past it."
+   ],
+   "progress": [
+    "The Star hangs in the dome. Strike when it blinks."
+   ],
+   "done": [
+    "The sky is... blue. When did it become so blue?",
+    "The Voidstring Bow. For the Riftwalker who finished what Aldric started."
+   ],
+   "rewards": [
+    {
+     "id": "null_bow",
+     "count": 1
+    },
+    {
+     "id": "void_essence",
+     "count": 8
+    },
+    {
+     "id": "tome_of_insight",
+     "count": 2
+    }
+   ],
+   "points": 3,
+   "xp": 600,
+   "give": [],
+   "start_cs": "",
+   "end_cs": "finale_void",
+   "requires": "l5q5",
+   "summary": "Defeat Nyxoth and close the wound in the sky."
+  }
+ ],
+ "npcs": {
+  "maera": {
+   "lines": [
+    "The Rift is not a place, it is a conversation between two worlds. Be careful what you say to it.",
+    "Lost? Look at your compass, and read your journal."
+   ],
+   "trades": [
+    {
+     "cost": [
+      {
+       "id": "rift_shard",
+       "count": 2
+      }
+     ],
+     "result": {
+      "id": "mana_elixir",
+      "count": 2
+     }
+    },
+    {
+     "cost": [
+      {
+       "id": "rift_shard",
+       "count": 3
+      }
+     ],
+     "result": {
+      "id": "vitality_elixir",
+      "count": 2
+     }
+    },
+    {
+     "cost": [
+      {
+       "id": "rift_dust",
+       "count": 8
+      }
+     ],
+     "result": {
+      "id": "rift_anchor",
+      "count": 1
+     }
+    }
+   ],
+   "home": "wayfarers_camp"
+  },
+  "brannoch": {
+   "lines": [
+    "Hah! A Riftwalker. Mind the anvil, lass, she bites.",
+    "Bring me shards and iron, and I will get you something that does not break."
+   ],
+   "trades": [
+    {
+     "cost": [
+      {
+       "id": "rift_shard",
+       "count": 4
+      }
+     ],
+     "result": {
+      "id": "minecraft:diamond",
+      "count": 1
+     }
+    },
+    {
+     "cost": [
+      {
+       "id": "rift_dust",
+       "count": 6
+      }
+     ],
+     "result": {
+      "id": "minecraft:iron_ingot",
+      "count": 6
+     }
+    },
+    {
+     "cost": [
+      {
+       "id": "rift_shard",
+       "count": 8
+      }
+     ],
+     "result": {
+      "id": "minecraft:netherite_scrap",
+      "count": 1
+     }
+    },
+    {
+     "cost": [
+      {
+       "id": "rift_shard",
+       "count": 6
+      }
+     ],
+     "result": {
+      "id": "minecraft:enchanted_golden_apple",
+      "count": 1
+     }
+    }
+   ],
+   "home": "wayfarers_camp"
+  },
+  "quill": {
+   "lines": [
+    "Quill Mossfoot, at your service! Potions, anchors, compasses, whatever you need. I never ask where it came from.",
+    "Rift dust? Hmmm. I will give you a fair price. Fair for me."
+   ],
+   "trades": [
+    {
+     "cost": [
+      {
+       "id": "minecraft:emerald",
+       "count": 4
+      }
+     ],
+     "result": {
+      "id": "seekers_compass",
+      "count": 1
+     }
+    },
+    {
+     "cost": [
+      {
+       "id": "rift_dust",
+       "count": 10
+      }
+     ],
+     "result": {
+      "id": "mana_elixir",
+      "count": 3
+     }
+    },
+    {
+     "cost": [
+      {
+       "id": "rift_shard",
+       "count": 2
+      }
+     ],
+     "result": {
+      "id": "rift_anchor",
+      "count": 1
+     }
+    },
+    {
+     "cost": [
+      {
+       "id": "rift_dust",
+       "count": 8
+      }
+     ],
+     "result": {
+      "id": "vitality_elixir",
+      "count": 2
+     }
+    },
+    {
+     "cost": [
+      {
+       "id": "minecraft:emerald",
+       "count": 6
+      }
+     ],
+     "result": {
+      "id": "quest_journal",
+      "count": 1
+     }
+    }
+   ],
+   "home": "wayfarers_camp"
+  },
+  "kaelen": {
+   "lines": [
+    "The Citadel was my home. It is Ignarax's throne now.",
+    "Embers keep, Riftwalker."
+   ],
+   "trades": [
+    {
+     "cost": [
+      {
+       "id": "flame_essence",
+       "count": 4
+      }
+     ],
+     "result": {
+      "id": "cinder_bricks",
+      "count": 8
+     }
+    },
+    {
+     "cost": [
+      {
+       "id": "flame_essence",
+       "count": 8
+      }
+     ],
+     "result": {
+      "id": "flame_sigil",
+      "count": 1
+     }
+    }
+   ],
+   "home": "ashen_bastion"
+  },
+  "seraphine": {
+   "lines": [
+    "The cold is patient. We have to be more patient than the cold.",
+    "Warm your hands, then go."
+   ],
+   "trades": [
+    {
+     "cost": [
+      {
+       "id": "frost_essence",
+       "count": 4
+      }
+     ],
+     "result": {
+      "id": "rime_bricks",
+      "count": 8
+     }
+    },
+    {
+     "cost": [
+      {
+       "id": "frost_essence",
+       "count": 8
+      }
+     ],
+     "result": {
+      "id": "frost_sigil",
+      "count": 1
+     }
+    }
+   ],
+   "home": "frostwatch_hold"
+  },
+  "vaelor": {
+   "lines": [
+    "The wind favours the quick. Be quick.",
+    "We do not fear the storm. We fear the quiet before it."
+   ],
+   "trades": [
+    {
+     "cost": [
+      {
+       "id": "storm_essence",
+       "count": 4
+      }
+     ],
+     "result": {
+      "id": "gale_bricks",
+      "count": 8
+     }
+    },
+    {
+     "cost": [
+      {
+       "id": "storm_essence",
+       "count": 8
+      }
+     ],
+     "result": {
+      "id": "storm_sigil",
+      "count": 1
+     }
+    }
+   ],
+   "home": "stormwatch_perch"
+  },
+  "elowen": {
+   "lines": [
+    "Roots remember. So should you.",
+    "Take only what you need. And give back more."
+   ],
+   "trades": [
+    {
+     "cost": [
+      {
+       "id": "verdant_essence",
+       "count": 4
+      }
+     ],
+     "result": {
+      "id": "thorn_bricks",
+      "count": 8
+     }
+    },
+    {
+     "cost": [
+      {
+       "id": "verdant_essence",
+       "count": 8
+      }
+     ],
+     "result": {
+      "id": "verdant_sigil",
+      "count": 1
+     }
+    }
+   ],
+   "home": "grovekeepers_lodge"
+  },
+  "ysmera": {
+   "lines": [
+    "Everything I say has already happened. Pay attention anyway.",
+    "I see you, and you see me, and neither of us is quite there."
+   ],
+   "trades": [
+    {
+     "cost": [
+      {
+       "id": "void_essence",
+       "count": 4
+      }
+     ],
+     "result": {
+      "id": "null_bricks",
+      "count": 8
+     }
+    },
+    {
+     "cost": [
+      {
+       "id": "void_essence",
+       "count": 8
+      }
+     ],
+     "result": {
+      "id": "void_sigil",
+      "count": 1
+     }
+    }
+   ],
+   "home": "veiled_sanctum"
+  },
+  "aldric_echo": {
+   "lines": [
+    "I was a king once. Now I am a draught in a hall. Ask, and I will answer what I can.",
+    "Seal the Rift. Or open it. I no longer remember which was the mistake."
+   ],
+   "trades": [],
+   "home": "fallen_keep"
+  }
+ },
+ "site_struct": {
+  "0": "altar_of_flame",
+  "1": "altar_of_frost",
+  "2": "altar_of_storm",
+  "3": "altar_of_verdant",
+  "4": "altar_of_void",
+  "5": "cinderhold_citadel",
+  "6": "frostspire_vault",
+  "7": "stormwatch_aerie",
+  "8": "elderroot_sanctum",
+  "9": "hollow_observatory",
+  "10": "standing_stone_ring",
+  "11": "dragon_bones",
+  "12": "ruined_watchtower",
+  "13": "sleeping_colossus",
+  "14": "titans_arch",
+  "15": "moonwell_shrine",
+  "16": "rift_scar",
+  "17": "crystal_cathedral",
+  "18": "fallen_keep",
+  "19": "rift_monolith",
+  "20": "sky_bridge",
+  "21": "ashen_bastion",
+  "22": "frostwatch_hold",
+  "23": "stormwatch_perch",
+  "24": "grovekeepers_lodge",
+  "25": "veiled_sanctum"
+ },
+ "boss_struct": {
+  "ignarax": "cinderhold_citadel",
+  "hrimgar": "frostspire_vault",
+  "zephyra": "stormwatch_aerie",
+  "sylvara": "elderroot_sanctum",
+  "nyxoth": "hollow_observatory"
+ },
+ "talk_lines": {
+  "l5q4": [
+   "I am Aldric. I was the last king before the Rift. I sealed a star into a hollow, and the star did not wish to stay sealed.",
+   "Take my regret to Ysmera. Tell her that the Monolith still stands, and that the star is hungry."
+  ]
+ },
+ "cutscenes": {
+  "intro": {
+   "anchor": "player",
+   "title": "Wayfarer's Camp",
+   "shots": [
+    {
+     "dur": 70,
+     "from": [
+      7.9,
+      3.5,
+      4.31
+     ],
+     "to": [
+      4.48,
+      4.0,
+      7.81
+     ],
+     "look": [
+      0,
+      1.2,
+      0
+     ],
+     "text": "A camp at the edge of the unknown..."
+    },
+    {
+     "dur": 70,
+     "from": [
+      4.48,
+      4.0,
+      7.81
+     ],
+     "to": [
+      -0.26,
+      4.5,
+      9.0
+     ],
+     "look": [
+      0,
+      1.2,
+      0
+     ],
+     "text": "Maera has read the sky for tears."
+    },
+    {
+     "dur": 70,
+     "from": [
+      -0.26,
+      4.5,
+      9.0
+     ],
+     "to": [
+      -4.93,
+      5.0,
+      7.53
+     ],
+     "look": [
+      0,
+      1.2,
+      0
+     ],
+     "text": "Something is wrong with the world."
+    },
+    {
+     "dur": 70,
+     "from": [
+      -4.93,
+      5.0,
+      7.53
+     ],
+     "to": [
+      -8.14,
+      5.5,
+      3.85
+     ],
+     "look": [
+      0,
+      1.2,
+      0
+     ],
+     "text": "And you are the only one who can see it."
+    }
+   ]
+  },
+  "rift_entry": {
+   "anchor": "player",
+   "title": "The Rift",
+   "shots": [
+    {
+     "dur": 60,
+     "from": [
+      -4.36,
+      2.2,
+      -4.13
+     ],
+     "to": [
+      -1.26,
+      3.0,
+      -5.87
+     ],
+     "look": [
+      0,
+      1.5,
+      0
+     ],
+     "text": "The air tastes of lightning..."
+    },
+    {
+     "dur": 60,
+     "from": [
+      -1.26,
+      3.0,
+      -5.87
+     ],
+     "to": [
+      2.27,
+      3.8,
+      -5.55
+     ],
+     "look": [
+      0,
+      1.5,
+      0
+     ],
+     "text": "Islands drift in a violet sky."
+    },
+    {
+     "dur": 60,
+     "from": [
+      2.27,
+      3.8,
+      -5.55
+     ],
+     "to": [
+      5.01,
+      4.6,
+      -3.3
+     ],
+     "look": [
+      0,
+      1.5,
+      0
+     ],
+     "text": "This is where magic and world collide."
+    },
+    {
+     "dur": 60,
+     "from": [
+      5.01,
+      4.6,
+      -3.3
+     ],
+     "to": [
+      6.0,
+      5.4,
+      0.1
+     ],
+     "look": [
+      0,
+      1.5,
+      0
+     ],
+     "text": "The Rift."
+    },
+    {
+     "dur": 60,
+     "from": [
+      6.0,
+      5.4,
+      0.1
+     ],
+     "to": [
+      4.89,
+      6.2,
+      3.47
+     ],
+     "look": [
+      0,
+      1.5,
+      0
+     ],
+     "text": "Everything here wants to be remembered."
+    }
+   ]
+  },
+  "boss_ignarax": {
+   "anchor": "altar",
+   "title": "Ignarax, the Cinder Tyrant",
+   "shots": [
+    {
+     "dur": 55,
+     "from": [
+      7.84,
+      5.0,
+      1.59
+     ],
+     "to": [
+      5.43,
+      6.5,
+      5.88
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "The sigil blazes."
+    },
+    {
+     "dur": 55,
+     "from": [
+      5.43,
+      6.5,
+      5.88
+     ],
+     "to": [
+      0.96,
+      8.0,
+      7.94
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "The throne cracks."
+    },
+    {
+     "dur": 55,
+     "from": [
+      0.96,
+      8.0,
+      7.94
+     ],
+     "to": [
+      -3.86,
+      9.5,
+      7.0
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "Fire climbs the walls."
+    },
+    {
+     "dur": 55,
+     "from": [
+      -3.86,
+      9.5,
+      7.0
+     ],
+     "to": [
+      -7.23,
+      11.0,
+      3.42
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "IGNARAX RISES."
+    }
+   ]
+  },
+  "boss_hrimgar": {
+   "anchor": "altar",
+   "title": "Hrimgar, the Frozen Regent",
+   "shots": [
+    {
+     "dur": 55,
+     "from": [
+      4.32,
+      5.0,
+      6.73
+     ],
+     "to": [
+      -0.43,
+      6.5,
+      7.99
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "Frost spreads over the floor."
+    },
+    {
+     "dur": 55,
+     "from": [
+      -0.43,
+      6.5,
+      7.99
+     ],
+     "to": [
+      -5.03,
+      8.0,
+      6.22
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "A crown of ice assembles."
+    },
+    {
+     "dur": 55,
+     "from": [
+      -5.03,
+      8.0,
+      6.22
+     ],
+     "to": [
+      -7.72,
+      9.5,
+      2.11
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "The air stops moving."
+    },
+    {
+     "dur": 55,
+     "from": [
+      -7.72,
+      9.5,
+      2.11
+     ],
+     "to": [
+      -7.49,
+      11.0,
+      -2.81
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "HRIMGAR RISES."
+    }
+   ]
+  },
+  "boss_zephyra": {
+   "anchor": "altar",
+   "title": "Zephyra, Tempest Queen",
+   "shots": [
+    {
+     "dur": 55,
+     "from": [
+      -3.33,
+      5.0,
+      7.27
+     ],
+     "to": [
+      -6.96,
+      6.5,
+      3.95
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "Thunder rolls through the dome."
+    },
+    {
+     "dur": 55,
+     "from": [
+      -6.96,
+      6.5,
+      3.95
+     ],
+     "to": [
+      -7.95,
+      8.0,
+      -0.87
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "The wind begins to scream."
+    },
+    {
+     "dur": 55,
+     "from": [
+      -7.95,
+      8.0,
+      -0.87
+     ],
+     "to": [
+      -5.94,
+      9.5,
+      -5.36
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "Lightning gathers."
+    },
+    {
+     "dur": 55,
+     "from": [
+      -5.94,
+      9.5,
+      -5.36
+     ],
+     "to": [
+      -1.69,
+      11.0,
+      -7.82
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "ZEPHYRA DESCENDS."
+    }
+   ]
+  },
+  "boss_sylvara": {
+   "anchor": "altar",
+   "title": "Sylvara, the Thornmother",
+   "shots": [
+    {
+     "dur": 55,
+     "from": [
+      -7.92,
+      5.0,
+      1.13
+     ],
+     "to": [
+      -7.08,
+      6.5,
+      -3.72
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "Roots tear up the floor."
+    },
+    {
+     "dur": 55,
+     "from": [
+      -7.08,
+      6.5,
+      -3.72
+     ],
+     "to": [
+      -3.57,
+      8.0,
+      -7.16
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "The Great Tree groans."
+    },
+    {
+     "dur": 55,
+     "from": [
+      -3.57,
+      8.0,
+      -7.16
+     ],
+     "to": [
+      1.3,
+      9.5,
+      -7.89
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "Green fire glows in the bark."
+    },
+    {
+     "dur": 55,
+     "from": [
+      1.3,
+      9.5,
+      -7.89
+     ],
+     "to": [
+      5.67,
+      11.0,
+      -5.64
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "SYLVARA AWAKENS."
+    }
+   ]
+  },
+  "boss_nyxoth": {
+   "anchor": "altar",
+   "title": "Nyxoth, the Hollow Star",
+   "shots": [
+    {
+     "dur": 55,
+     "from": [
+      -5.23,
+      5.0,
+      -6.05
+     ],
+     "to": [
+      -0.7,
+      6.5,
+      -7.97
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "The dome goes dark."
+    },
+    {
+     "dur": 55,
+     "from": [
+      -0.7,
+      6.5,
+      -7.97
+     ],
+     "to": [
+      4.1,
+      8.0,
+      -6.87
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "A hole opens in the sky."
+    },
+    {
+     "dur": 55,
+     "from": [
+      4.1,
+      8.0,
+      -6.87
+     ],
+     "to": [
+      7.34,
+      9.5,
+      -3.18
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "Something looks back."
+    },
+    {
+     "dur": 55,
+     "from": [
+      7.34,
+      9.5,
+      -3.18
+     ],
+     "to": [
+      7.81,
+      11.0,
+      1.72
+     ],
+     "look": [
+      0,
+      3,
+      0
+     ],
+     "text": "NYXOTH BLINKS."
+    }
+   ]
+  },
+  "finale_flame": {
+   "anchor": "player",
+   "title": "The Ember Crown Falls",
+   "shots": [
+    {
+     "dur": 70,
+     "from": [
+      10.0,
+      4.0,
+      0.0
+     ],
+     "to": [
+      7.86,
+      5.0,
+      6.18
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "The fires die. The ash settles."
+    },
+    {
+     "dur": 70,
+     "from": [
+      7.86,
+      5.0,
+      6.18
+     ],
+     "to": [
+      2.35,
+      6.0,
+      9.72
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "The Cinderhold is silent."
+    },
+    {
+     "dur": 70,
+     "from": [
+      2.35,
+      6.0,
+      9.72
+     ],
+     "to": [
+      -4.16,
+      7.0,
+      9.09
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "A new dawn over the burnt hills."
+    }
+   ]
+  },
+  "finale_frost": {
+   "anchor": "player",
+   "title": "The Regent Is Gone",
+   "shots": [
+    {
+     "dur": 70,
+     "from": [
+      5.4,
+      4.0,
+      8.41
+     ],
+     "to": [
+      -0.96,
+      5.0,
+      9.95
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "The ice begins to crack."
+    },
+    {
+     "dur": 70,
+     "from": [
+      -0.96,
+      5.0,
+      9.95
+     ],
+     "to": [
+      -6.91,
+      6.0,
+      7.23
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "Water runs under the snow."
+    },
+    {
+     "dur": 70,
+     "from": [
+      -6.91,
+      6.0,
+      7.23
+     ],
+     "to": [
+      -9.9,
+      7.0,
+      1.41
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "Spring, at last."
+    }
+   ]
+  },
+  "finale_storm": {
+   "anchor": "player",
+   "title": "The Sky Is Clear",
+   "shots": [
+    {
+     "dur": 70,
+     "from": [
+      -4.16,
+      4.0,
+      9.09
+     ],
+     "to": [
+      -8.89,
+      5.0,
+      4.57
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "The thunder fades."
+    },
+    {
+     "dur": 70,
+     "from": [
+      -8.89,
+      5.0,
+      4.57
+     ],
+     "to": [
+      -9.82,
+      6.0,
+      -1.91
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "Clouds part over the peaks."
+    },
+    {
+     "dur": 70,
+     "from": [
+      -9.82,
+      6.0,
+      -1.91
+     ],
+     "to": [
+      -6.54,
+      7.0,
+      -7.57
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "A silence full of birdsong."
+    }
+   ]
+  },
+  "finale_verdant": {
+   "anchor": "player",
+   "title": "The Great Tree Heals",
+   "shots": [
+    {
+     "dur": 70,
+     "from": [
+      -9.9,
+      4.0,
+      1.41
+     ],
+     "to": [
+      -8.65,
+      5.0,
+      -5.01
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "The thorns wither."
+    },
+    {
+     "dur": 70,
+     "from": [
+      -8.65,
+      5.0,
+      -5.01
+     ],
+     "to": [
+      -3.7,
+      6.0,
+      -9.29
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "Green shoots break the ash."
+    },
+    {
+     "dur": 70,
+     "from": [
+      -3.7,
+      6.0,
+      -9.29
+     ],
+     "to": [
+      2.84,
+      7.0,
+      -9.59
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "The grove breathes again."
+    }
+   ]
+  },
+  "finale_void": {
+   "anchor": "player",
+   "title": "The Star Goes Out",
+   "shots": [
+    {
+     "dur": 70,
+     "from": [
+      -6.54,
+      4.0,
+      -7.57
+     ],
+     "to": [
+      -0.46,
+      5.0,
+      -9.99
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "The hole in the sky closes."
+    },
+    {
+     "dur": 70,
+     "from": [
+      -0.46,
+      5.0,
+      -9.99
+     ],
+     "to": [
+      5.82,
+      6.0,
+      -8.13
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "Stars, ordinary ones, come out."
+    },
+    {
+     "dur": 70,
+     "from": [
+      5.82,
+      6.0,
+      -8.13
+     ],
+     "to": [
+      9.6,
+      7.0,
+      -2.79
+     ],
+     "look": [
+      0,
+      2,
+      0
+     ],
+     "text": "The Rift is quiet, for now."
+    }
+   ]
+  }
+ },
+ "skills": {
+  "flame": [
+   {
+    "id": "flame_1",
+    "name": "Flame Attunement",
+    "desc": "+10% spell power.",
+    "cost": 1,
+    "requires": [],
+    "effect": {
+     "power": 0.1
+    },
+    "x": 0,
+    "y": 0
+   },
+   {
+    "id": "flame_2",
+    "name": "Reservoir",
+    "desc": "+25 maximum mana.",
+    "cost": 1,
+    "requires": [
+     "flame_1"
+    ],
+    "effect": {
+     "mana": 25
+    },
+    "x": 0,
+    "y": 1
+   },
+   {
+    "id": "flame_3",
+    "name": "Fire Nova",
+    "desc": "Unlocks Fire Nova. Press V to cycle spells while holding a staff.",
+    "cost": 2,
+    "requires": [
+     "flame_1"
+    ],
+    "spell": "nova",
+    "x": -1,
+    "y": 1
+   },
+   {
+    "id": "flame_4",
+    "name": "Spellweaving",
+    "desc": "+15% spell power, +1 mana/sec regeneration.",
+    "cost": 2,
+    "requires": [
+     "flame_2"
+    ],
+    "effect": {
+     "power": 0.15,
+     "regen": 1.0
+    },
+    "x": 1,
+    "y": 2
+   },
+   {
+    "id": "flame_5",
+    "name": "Meteor",
+    "desc": "Unlocks Meteor. Press V to cycle spells while holding a staff.",
+    "cost": 3,
+    "requires": [
+     "flame_3",
+     "flame_4"
+    ],
+    "spell": "meteor",
+    "x": 0,
+    "y": 3
+   },
+   {
+    "id": "flame_6",
+    "name": "Cinder Soul",
+    "desc": "Your melee strikes ignite foes.",
+    "cost": 3,
+    "requires": [
+     "flame_5"
+    ],
+    "passive": "ignite",
+    "x": 0,
+    "y": 4
+   }
+  ],
+  "frost": [
+   {
+    "id": "frost_1",
+    "name": "Frost Attunement",
+    "desc": "+10% spell power.",
+    "cost": 1,
+    "requires": [],
+    "effect": {
+     "power": 0.1
+    },
+    "x": 0,
+    "y": 0
+   },
+   {
+    "id": "frost_2",
+    "name": "Reservoir",
+    "desc": "+25 maximum mana.",
+    "cost": 1,
+    "requires": [
+     "frost_1"
+    ],
+    "effect": {
+     "mana": 25
+    },
+    "x": 0,
+    "y": 1
+   },
+   {
+    "id": "frost_3",
+    "name": "Frost Nova",
+    "desc": "Unlocks Frost Nova. Press V to cycle spells while holding a staff.",
+    "cost": 2,
+    "requires": [
+     "frost_1"
+    ],
+    "spell": "nova",
+    "x": -1,
+    "y": 1
+   },
+   {
+    "id": "frost_4",
+    "name": "Spellweaving",
+    "desc": "+15% spell power, +1 mana/sec regeneration.",
+    "cost": 2,
+    "requires": [
+     "frost_2"
+    ],
+    "effect": {
+     "power": 0.15,
+     "regen": 1.0
+    },
+    "x": 1,
+    "y": 2
+   },
+   {
+    "id": "frost_5",
+    "name": "Ice Lance",
+    "desc": "Unlocks Ice Lance. Press V to cycle spells while holding a staff.",
+    "cost": 3,
+    "requires": [
+     "frost_3",
+     "frost_4"
+    ],
+    "spell": "lance",
+    "x": 0,
+    "y": 3
+   },
+   {
+    "id": "frost_6",
+    "name": "Winter's Grasp",
+    "desc": "Your melee strikes chill foes.",
+    "cost": 3,
+    "requires": [
+     "frost_5"
+    ],
+    "passive": "chill",
+    "x": 0,
+    "y": 4
+   }
+  ],
+  "storm": [
+   {
+    "id": "storm_1",
+    "name": "Storm Attunement",
+    "desc": "+10% spell power.",
+    "cost": 1,
+    "requires": [],
+    "effect": {
+     "power": 0.1
+    },
+    "x": 0,
+    "y": 0
+   },
+   {
+    "id": "storm_2",
+    "name": "Reservoir",
+    "desc": "+25 maximum mana.",
+    "cost": 1,
+    "requires": [
+     "storm_1"
+    ],
+    "effect": {
+     "mana": 25
+    },
+    "x": 0,
+    "y": 1
+   },
+   {
+    "id": "storm_3",
+    "name": "Chain Lightning",
+    "desc": "Unlocks Chain Lightning. Press V to cycle spells while holding a staff.",
+    "cost": 2,
+    "requires": [
+     "storm_1"
+    ],
+    "spell": "chain",
+    "x": -1,
+    "y": 1
+   },
+   {
+    "id": "storm_4",
+    "name": "Spellweaving",
+    "desc": "+15% spell power, +1 mana/sec regeneration.",
+    "cost": 2,
+    "requires": [
+     "storm_2"
+    ],
+    "effect": {
+     "power": 0.15,
+     "regen": 1.0
+    },
+    "x": 1,
+    "y": 2
+   },
+   {
+    "id": "storm_5",
+    "name": "Tempest",
+    "desc": "Unlocks Tempest. Press V to cycle spells while holding a staff.",
+    "cost": 3,
+    "requires": [
+     "storm_3",
+     "storm_4"
+    ],
+    "spell": "tempest",
+    "x": 0,
+    "y": 3
+   },
+   {
+    "id": "storm_6",
+    "name": "Stormstride",
+    "desc": "Move faster, always.",
+    "cost": 3,
+    "requires": [
+     "storm_5"
+    ],
+    "passive": "swift",
+    "x": 0,
+    "y": 4
+   }
+  ],
+  "verdant": [
+   {
+    "id": "verdant_1",
+    "name": "Verdant Attunement",
+    "desc": "+10% spell power.",
+    "cost": 1,
+    "requires": [],
+    "effect": {
+     "power": 0.1
+    },
+    "x": 0,
+    "y": 0
+   },
+   {
+    "id": "verdant_2",
+    "name": "Reservoir",
+    "desc": "+25 maximum mana.",
+    "cost": 1,
+    "requires": [
+     "verdant_1"
+    ],
+    "effect": {
+     "mana": 25
+    },
+    "x": 0,
+    "y": 1
+   },
+   {
+    "id": "verdant_3",
+    "name": "Thorn Snare",
+    "desc": "Unlocks Thorn Snare. Press V to cycle spells while holding a staff.",
+    "cost": 2,
+    "requires": [
+     "verdant_1"
+    ],
+    "spell": "snare",
+    "x": -1,
+    "y": 1
+   },
+   {
+    "id": "verdant_4",
+    "name": "Spellweaving",
+    "desc": "+15% spell power, +1 mana/sec regeneration.",
+    "cost": 2,
+    "requires": [
+     "verdant_2"
+    ],
+    "effect": {
+     "power": 0.15,
+     "regen": 1.0
+    },
+    "x": 1,
+    "y": 2
+   },
+   {
+    "id": "verdant_5",
+    "name": "Bloom",
+    "desc": "Unlocks Bloom. Press V to cycle spells while holding a staff.",
+    "cost": 3,
+    "requires": [
+     "verdant_3",
+     "verdant_4"
+    ],
+    "spell": "bloom",
+    "x": 0,
+    "y": 3
+   },
+   {
+    "id": "verdant_6",
+    "name": "Heartwood",
+    "desc": "Slowly regenerate health.",
+    "cost": 3,
+    "requires": [
+     "verdant_5"
+    ],
+    "passive": "regen",
+    "x": 0,
+    "y": 4
+   }
+  ],
+  "void": [
+   {
+    "id": "void_1",
+    "name": "Void Attunement",
+    "desc": "+10% spell power.",
+    "cost": 1,
+    "requires": [],
+    "effect": {
+     "power": 0.1
+    },
+    "x": 0,
+    "y": 0
+   },
+   {
+    "id": "void_2",
+    "name": "Reservoir",
+    "desc": "+25 maximum mana.",
+    "cost": 1,
+    "requires": [
+     "void_1"
+    ],
+    "effect": {
+     "mana": 25
+    },
+    "x": 0,
+    "y": 1
+   },
+   {
+    "id": "void_3",
+    "name": "Blink",
+    "desc": "Unlocks Blink. Press V to cycle spells while holding a staff.",
+    "cost": 2,
+    "requires": [
+     "void_1"
+    ],
+    "spell": "blink",
+    "x": -1,
+    "y": 1
+   },
+   {
+    "id": "void_4",
+    "name": "Spellweaving",
+    "desc": "+15% spell power, +1 mana/sec regeneration.",
+    "cost": 2,
+    "requires": [
+     "void_2"
+    ],
+    "effect": {
+     "power": 0.15,
+     "regen": 1.0
+    },
+    "x": 1,
+    "y": 2
+   },
+   {
+    "id": "void_5",
+    "name": "Rift Rend",
+    "desc": "Unlocks Rift Rend. Press V to cycle spells while holding a staff.",
+    "cost": 3,
+    "requires": [
+     "void_3",
+     "void_4"
+    ],
+    "spell": "rend",
+    "x": 0,
+    "y": 3
+   },
+   {
+    "id": "void_6",
+    "name": "Veilstep",
+    "desc": "Unseen strikes: a chance to evade damage.",
+    "cost": 3,
+    "requires": [
+     "void_5"
+    ],
+    "passive": "evade",
+    "x": 0,
+    "y": 4
+   }
+  ]
+ }
+}

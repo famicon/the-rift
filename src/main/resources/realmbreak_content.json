@@ -1,0 +1,1072 @@
+{
+ "items": [
+  {
+   "id": "cinder_sword",
+   "name": "Cinderfang",
+   "kind": "sword",
+   "element": "flame",
+   "damage": 8,
+   "speed": -2.4,
+   "durability": 1800,
+   "rarity": "rare",
+   "lore": "Forged where the Rift bleeds fire.",
+   "icon": "sword"
+  },
+  {
+   "id": "cinder_bow",
+   "name": "Emberstring Bow",
+   "kind": "bow",
+   "element": "flame",
+   "durability": 900,
+   "rarity": "rare",
+   "lore": "Forged where the Rift bleeds fire.",
+   "icon": "bow",
+   "bonus": 2.5
+  },
+  {
+   "id": "cinder_staff",
+   "name": "Staff of Cinders",
+   "kind": "staff",
+   "element": "flame",
+   "power": 8.0,
+   "mana": 12,
+   "cooldown": 14,
+   "durability": 1200,
+   "rarity": "rare",
+   "lore": "Forged where the Rift bleeds fire.",
+   "icon": "staff"
+  },
+  {
+   "id": "cinder_helmet",
+   "name": "Cinderplate Helm",
+   "kind": "armor",
+   "element": "flame",
+   "slot": "helmet",
+   "rarity": "rare",
+   "lore": "Forged where the Rift bleeds fire. Wear all four for a set bonus.",
+   "icon": "helmet"
+  },
+  {
+   "id": "cinder_chestplate",
+   "name": "Cinderplate Cuirass",
+   "kind": "armor",
+   "element": "flame",
+   "slot": "chestplate",
+   "rarity": "rare",
+   "lore": "Forged where the Rift bleeds fire. Wear all four for a set bonus.",
+   "icon": "chestplate"
+  },
+  {
+   "id": "cinder_leggings",
+   "name": "Cinderplate Greaves",
+   "kind": "armor",
+   "element": "flame",
+   "slot": "leggings",
+   "rarity": "rare",
+   "lore": "Forged where the Rift bleeds fire. Wear all four for a set bonus.",
+   "icon": "leggings"
+  },
+  {
+   "id": "cinder_boots",
+   "name": "Cinderplate Sabatons",
+   "kind": "armor",
+   "element": "flame",
+   "slot": "boots",
+   "rarity": "rare",
+   "lore": "Forged where the Rift bleeds fire. Wear all four for a set bonus.",
+   "icon": "boots"
+  },
+  {
+   "id": "flame_essence",
+   "name": "Flame Essence",
+   "kind": "misc",
+   "element": "flame",
+   "icon": "essence",
+   "rarity": "uncommon",
+   "lore": "Crystallised flame magic."
+  },
+  {
+   "id": "flame_sigil",
+   "name": "Sigil of Flame",
+   "kind": "misc",
+   "element": "flame",
+   "icon": "sigil",
+   "rarity": "epic",
+   "stack": 1,
+   "lore": "Place it upon the Boss Altar of its dungeon."
+  },
+  {
+   "id": "rime_sword",
+   "name": "Rimebrand",
+   "kind": "sword",
+   "element": "frost",
+   "damage": 8,
+   "speed": -2.4,
+   "durability": 1800,
+   "rarity": "rare",
+   "lore": "Cold enough to still a heartbeat.",
+   "icon": "sword"
+  },
+  {
+   "id": "rime_bow",
+   "name": "Hoarfrost Bow",
+   "kind": "bow",
+   "element": "frost",
+   "durability": 900,
+   "rarity": "rare",
+   "lore": "Cold enough to still a heartbeat.",
+   "icon": "bow",
+   "bonus": 2.5
+  },
+  {
+   "id": "rime_staff",
+   "name": "Staff of Rime",
+   "kind": "staff",
+   "element": "frost",
+   "power": 8.0,
+   "mana": 12,
+   "cooldown": 14,
+   "durability": 1200,
+   "rarity": "rare",
+   "lore": "Cold enough to still a heartbeat.",
+   "icon": "staff"
+  },
+  {
+   "id": "rime_helmet",
+   "name": "Rimeweave Helm",
+   "kind": "armor",
+   "element": "frost",
+   "slot": "helmet",
+   "rarity": "rare",
+   "lore": "Cold enough to still a heartbeat. Wear all four for a set bonus.",
+   "icon": "helmet"
+  },
+  {
+   "id": "rime_chestplate",
+   "name": "Rimeweave Cuirass",
+   "kind": "armor",
+   "element": "frost",
+   "slot": "chestplate",
+   "rarity": "rare",
+   "lore": "Cold enough to still a heartbeat. Wear all four for a set bonus.",
+   "icon": "chestplate"
+  },
+  {
+   "id": "rime_leggings",
+   "name": "Rimeweave Greaves",
+   "kind": "armor",
+   "element": "frost",
+   "slot": "leggings",
+   "rarity": "rare",
+   "lore": "Cold enough to still a heartbeat. Wear all four for a set bonus.",
+   "icon": "leggings"
+  },
+  {
+   "id": "rime_boots",
+   "name": "Rimeweave Sabatons",
+   "kind": "armor",
+   "element": "frost",
+   "slot": "boots",
+   "rarity": "rare",
+   "lore": "Cold enough to still a heartbeat. Wear all four for a set bonus.",
+   "icon": "boots"
+  },
+  {
+   "id": "frost_essence",
+   "name": "Frost Essence",
+   "kind": "misc",
+   "element": "frost",
+   "icon": "essence",
+   "rarity": "uncommon",
+   "lore": "Crystallised frost magic."
+  },
+  {
+   "id": "frost_sigil",
+   "name": "Sigil of Frost",
+   "kind": "misc",
+   "element": "frost",
+   "icon": "sigil",
+   "rarity": "epic",
+   "stack": 1,
+   "lore": "Place it upon the Boss Altar of its dungeon."
+  },
+  {
+   "id": "gale_sword",
+   "name": "Thunderedge",
+   "kind": "sword",
+   "element": "storm",
+   "damage": 8,
+   "speed": -2.4,
+   "durability": 1800,
+   "rarity": "rare",
+   "lore": "It hums with a caged tempest.",
+   "icon": "sword"
+  },
+  {
+   "id": "gale_bow",
+   "name": "Stormcall Bow",
+   "kind": "bow",
+   "element": "storm",
+   "durability": 900,
+   "rarity": "rare",
+   "lore": "It hums with a caged tempest.",
+   "icon": "bow",
+   "bonus": 2.5
+  },
+  {
+   "id": "gale_staff",
+   "name": "Staff of Gales",
+   "kind": "staff",
+   "element": "storm",
+   "power": 8.0,
+   "mana": 12,
+   "cooldown": 14,
+   "durability": 1200,
+   "rarity": "rare",
+   "lore": "It hums with a caged tempest.",
+   "icon": "staff"
+  },
+  {
+   "id": "gale_helmet",
+   "name": "Galeguard Helm",
+   "kind": "armor",
+   "element": "storm",
+   "slot": "helmet",
+   "rarity": "rare",
+   "lore": "It hums with a caged tempest. Wear all four for a set bonus.",
+   "icon": "helmet"
+  },
+  {
+   "id": "gale_chestplate",
+   "name": "Galeguard Cuirass",
+   "kind": "armor",
+   "element": "storm",
+   "slot": "chestplate",
+   "rarity": "rare",
+   "lore": "It hums with a caged tempest. Wear all four for a set bonus.",
+   "icon": "chestplate"
+  },
+  {
+   "id": "gale_leggings",
+   "name": "Galeguard Greaves",
+   "kind": "armor",
+   "element": "storm",
+   "slot": "leggings",
+   "rarity": "rare",
+   "lore": "It hums with a caged tempest. Wear all four for a set bonus.",
+   "icon": "leggings"
+  },
+  {
+   "id": "gale_boots",
+   "name": "Galeguard Sabatons",
+   "kind": "armor",
+   "element": "storm",
+   "slot": "boots",
+   "rarity": "rare",
+   "lore": "It hums with a caged tempest. Wear all four for a set bonus.",
+   "icon": "boots"
+  },
+  {
+   "id": "storm_essence",
+   "name": "Storm Essence",
+   "kind": "misc",
+   "element": "storm",
+   "icon": "essence",
+   "rarity": "uncommon",
+   "lore": "Crystallised storm magic."
+  },
+  {
+   "id": "storm_sigil",
+   "name": "Sigil of Storm",
+   "kind": "misc",
+   "element": "storm",
+   "icon": "sigil",
+   "rarity": "epic",
+   "stack": 1,
+   "lore": "Place it upon the Boss Altar of its dungeon."
+  },
+  {
+   "id": "thorn_sword",
+   "name": "Thornblade",
+   "kind": "sword",
+   "element": "verdant",
+   "damage": 8,
+   "speed": -2.4,
+   "durability": 1800,
+   "rarity": "rare",
+   "lore": "Wild life answers its wielder.",
+   "icon": "sword"
+  },
+  {
+   "id": "thorn_bow",
+   "name": "Wildwood Bow",
+   "kind": "bow",
+   "element": "verdant",
+   "durability": 900,
+   "rarity": "rare",
+   "lore": "Wild life answers its wielder.",
+   "icon": "bow",
+   "bonus": 2.5
+  },
+  {
+   "id": "thorn_staff",
+   "name": "Staff of Thorns",
+   "kind": "staff",
+   "element": "verdant",
+   "power": 8.0,
+   "mana": 12,
+   "cooldown": 14,
+   "durability": 1200,
+   "rarity": "rare",
+   "lore": "Wild life answers its wielder.",
+   "icon": "staff"
+  },
+  {
+   "id": "thorn_helmet",
+   "name": "Thornbark Helm",
+   "kind": "armor",
+   "element": "verdant",
+   "slot": "helmet",
+   "rarity": "rare",
+   "lore": "Wild life answers its wielder. Wear all four for a set bonus.",
+   "icon": "helmet"
+  },
+  {
+   "id": "thorn_chestplate",
+   "name": "Thornbark Cuirass",
+   "kind": "armor",
+   "element": "verdant",
+   "slot": "chestplate",
+   "rarity": "rare",
+   "lore": "Wild life answers its wielder. Wear all four for a set bonus.",
+   "icon": "chestplate"
+  },
+  {
+   "id": "thorn_leggings",
+   "name": "Thornbark Greaves",
+   "kind": "armor",
+   "element": "verdant",
+   "slot": "leggings",
+   "rarity": "rare",
+   "lore": "Wild life answers its wielder. Wear all four for a set bonus.",
+   "icon": "leggings"
+  },
+  {
+   "id": "thorn_boots",
+   "name": "Thornbark Sabatons",
+   "kind": "armor",
+   "element": "verdant",
+   "slot": "boots",
+   "rarity": "rare",
+   "lore": "Wild life answers its wielder. Wear all four for a set bonus.",
+   "icon": "boots"
+  },
+  {
+   "id": "verdant_essence",
+   "name": "Verdant Essence",
+   "kind": "misc",
+   "element": "verdant",
+   "icon": "essence",
+   "rarity": "uncommon",
+   "lore": "Crystallised verdant magic."
+  },
+  {
+   "id": "verdant_sigil",
+   "name": "Sigil of Verdant",
+   "kind": "misc",
+   "element": "verdant",
+   "icon": "sigil",
+   "rarity": "epic",
+   "stack": 1,
+   "lore": "Place it upon the Boss Altar of its dungeon."
+  },
+  {
+   "id": "null_sword",
+   "name": "Nullblade",
+   "kind": "sword",
+   "element": "void",
+   "damage": 8,
+   "speed": -2.4,
+   "durability": 1800,
+   "rarity": "rare",
+   "lore": "It remembers the dark between stars.",
+   "icon": "sword"
+  },
+  {
+   "id": "null_bow",
+   "name": "Voidstring Bow",
+   "kind": "bow",
+   "element": "void",
+   "durability": 900,
+   "rarity": "rare",
+   "lore": "It remembers the dark between stars.",
+   "icon": "bow",
+   "bonus": 2.5
+  },
+  {
+   "id": "null_staff",
+   "name": "Staff of the Void",
+   "kind": "staff",
+   "element": "void",
+   "power": 8.0,
+   "mana": 12,
+   "cooldown": 14,
+   "durability": 1200,
+   "rarity": "rare",
+   "lore": "It remembers the dark between stars.",
+   "icon": "staff"
+  },
+  {
+   "id": "null_helmet",
+   "name": "Nullveil Helm",
+   "kind": "armor",
+   "element": "void",
+   "slot": "helmet",
+   "rarity": "rare",
+   "lore": "It remembers the dark between stars. Wear all four for a set bonus.",
+   "icon": "helmet"
+  },
+  {
+   "id": "null_chestplate",
+   "name": "Nullveil Cuirass",
+   "kind": "armor",
+   "element": "void",
+   "slot": "chestplate",
+   "rarity": "rare",
+   "lore": "It remembers the dark between stars. Wear all four for a set bonus.",
+   "icon": "chestplate"
+  },
+  {
+   "id": "null_leggings",
+   "name": "Nullveil Greaves",
+   "kind": "armor",
+   "element": "void",
+   "slot": "leggings",
+   "rarity": "rare",
+   "lore": "It remembers the dark between stars. Wear all four for a set bonus.",
+   "icon": "leggings"
+  },
+  {
+   "id": "null_boots",
+   "name": "Nullveil Sabatons",
+   "kind": "armor",
+   "element": "void",
+   "slot": "boots",
+   "rarity": "rare",
+   "lore": "It remembers the dark between stars. Wear all four for a set bonus.",
+   "icon": "boots"
+  },
+  {
+   "id": "void_essence",
+   "name": "Void Essence",
+   "kind": "misc",
+   "element": "void",
+   "icon": "essence",
+   "rarity": "uncommon",
+   "lore": "Crystallised void magic."
+  },
+  {
+   "id": "void_sigil",
+   "name": "Sigil of Void",
+   "kind": "misc",
+   "element": "void",
+   "icon": "sigil",
+   "rarity": "epic",
+   "stack": 1,
+   "lore": "Place it upon the Boss Altar of its dungeon."
+  },
+  {
+   "id": "emberbrand",
+   "name": "Emberbrand, Cinder Tyrant's Edge",
+   "kind": "sword",
+   "element": "flame",
+   "damage": 11,
+   "speed": -2.6,
+   "durability": 3200,
+   "rarity": "epic",
+   "legendary": true,
+   "icon": "greatsword",
+   "lore": "Right-click: unleash a ring of cinders."
+  },
+  {
+   "id": "heart_of_winter",
+   "name": "Heart of Winter",
+   "kind": "staff",
+   "element": "frost",
+   "power": 13.0,
+   "mana": 18,
+   "cooldown": 12,
+   "durability": 3000,
+   "rarity": "epic",
+   "legendary": true,
+   "icon": "staff_big",
+   "lore": "Its bolts pierce everything in their path."
+  },
+  {
+   "id": "stormpiercer",
+   "name": "Stormpiercer",
+   "kind": "bow",
+   "element": "storm",
+   "durability": 2400,
+   "rarity": "epic",
+   "legendary": true,
+   "bonus": 5.0,
+   "icon": "bow_big",
+   "lore": "Arrows call down the sky."
+  },
+  {
+   "id": "oakenheart_scepter",
+   "name": "Oakenheart Scepter",
+   "kind": "staff",
+   "element": "verdant",
+   "power": 9.0,
+   "mana": 16,
+   "cooldown": 12,
+   "durability": 3000,
+   "rarity": "epic",
+   "legendary": true,
+   "icon": "scepter",
+   "lore": "Every strike mends its wielder."
+  },
+  {
+   "id": "voidreaver",
+   "name": "Voidreaver",
+   "kind": "sword",
+   "element": "void",
+   "damage": 11,
+   "speed": -2.4,
+   "durability": 3200,
+   "rarity": "epic",
+   "legendary": true,
+   "icon": "greatsword",
+   "lore": "Right-click: slip through the veil."
+  },
+  {
+   "id": "apprentice_staff",
+   "name": "Apprentice Staff",
+   "kind": "staff",
+   "element": "arcane",
+   "power": 5.0,
+   "mana": 8,
+   "cooldown": 16,
+   "durability": 500,
+   "rarity": "uncommon",
+   "icon": "staff",
+   "lore": "A humble focus for a would-be Riftwalker."
+  },
+  {
+   "id": "rift_shard",
+   "name": "Rift Shard",
+   "kind": "misc",
+   "icon": "shard",
+   "rarity": "uncommon",
+   "lore": "A splinter of the plane where magic and the world collide.",
+   "element": ""
+  },
+  {
+   "id": "rift_dust",
+   "name": "Rift Dust",
+   "kind": "misc",
+   "icon": "dust",
+   "lore": "Glittering residue of unstable magic.",
+   "element": "",
+   "rarity": "common"
+  },
+  {
+   "id": "ancient_rune",
+   "name": "Ancient Rune",
+   "kind": "misc",
+   "icon": "rune",
+   "rarity": "rare",
+   "lore": "Old Aldric's script, still warm.",
+   "element": ""
+  },
+  {
+   "id": "rift_anchor",
+   "name": "Rift Anchor",
+   "kind": "anchor",
+   "icon": "anchor",
+   "rarity": "rare",
+   "stack": 16,
+   "lore": "Right-click a block to tear open a stable Rift Gate.",
+   "element": ""
+  },
+  {
+   "id": "seekers_compass",
+   "name": "Seeker's Compass",
+   "kind": "compass",
+   "icon": "compass",
+   "rarity": "rare",
+   "stack": 1,
+   "lore": "Use: find your quest destination. Sneak + Use: choose a destination.",
+   "element": ""
+  },
+  {
+   "id": "quest_journal",
+   "name": "Riftwalker's Journal",
+   "kind": "journal",
+   "icon": "journal",
+   "rarity": "uncommon",
+   "stack": 1,
+   "lore": "Use: open your quest log. (Default key: J)",
+   "element": ""
+  },
+  {
+   "id": "mana_elixir",
+   "name": "Mana Elixir",
+   "kind": "elixir",
+   "icon": "elixir_blue",
+   "stack": 16,
+   "rarity": "uncommon",
+   "lore": "Restores a large amount of mana.",
+   "mana": 80,
+   "heal": 0,
+   "element": ""
+  },
+  {
+   "id": "vitality_elixir",
+   "name": "Vitality Elixir",
+   "kind": "elixir",
+   "icon": "elixir_red",
+   "stack": 16,
+   "rarity": "uncommon",
+   "lore": "Restores health and grants regeneration.",
+   "mana": 0,
+   "heal": 12,
+   "element": ""
+  },
+  {
+   "id": "tome_of_insight",
+   "name": "Tome of Insight",
+   "kind": "tome",
+   "icon": "tome",
+   "rarity": "epic",
+   "stack": 16,
+   "lore": "Use: gain one skill point.",
+   "element": ""
+  }
+ ],
+ "blocks": [
+  {
+   "id": "riftstone",
+   "name": "Riftstone",
+   "kind": "cube",
+   "strength": 2.0,
+   "tool": "pickaxe"
+  },
+  {
+   "id": "riftstone_bricks",
+   "name": "Riftstone Bricks",
+   "kind": "cube",
+   "strength": 2.0,
+   "tool": "pickaxe"
+  },
+  {
+   "id": "chiseled_riftstone",
+   "name": "Chiseled Riftstone",
+   "kind": "cube",
+   "strength": 2.0,
+   "tool": "pickaxe"
+  },
+  {
+   "id": "riftstone_pillar",
+   "name": "Riftstone Pillar",
+   "kind": "pillar",
+   "strength": 2.0,
+   "tool": "pickaxe"
+  },
+  {
+   "id": "rift_turf",
+   "name": "Rift Turf",
+   "kind": "turf",
+   "strength": 0.8,
+   "tool": "shovel"
+  },
+  {
+   "id": "rift_crystal_block",
+   "name": "Rift Crystal Block",
+   "kind": "glow",
+   "strength": 1.5,
+   "tool": "pickaxe",
+   "light": 12,
+   "drops": "rift_shard"
+  },
+  {
+   "id": "rift_shard_ore",
+   "name": "Rift Shard Ore",
+   "kind": "cube",
+   "strength": 3.0,
+   "tool": "pickaxe",
+   "drops": "rift_shard",
+   "light": 4
+  },
+  {
+   "id": "glimmerwood_log",
+   "name": "Glimmerwood Log",
+   "kind": "log",
+   "strength": 2.0,
+   "tool": "axe"
+  },
+  {
+   "id": "glimmerwood_planks",
+   "name": "Glimmerwood Planks",
+   "kind": "cube",
+   "strength": 2.0,
+   "tool": "axe"
+  },
+  {
+   "id": "glimmerwood_leaves",
+   "name": "Glimmerwood Leaves",
+   "kind": "leaves",
+   "strength": 0.2,
+   "tool": "hoe",
+   "light": 6
+  },
+  {
+   "id": "glow_bloom",
+   "name": "Glow Bloom",
+   "kind": "plant",
+   "strength": 0.0,
+   "tool": "",
+   "light": 9
+  },
+  {
+   "id": "cinder_bricks",
+   "name": "Cinderplate Bricks",
+   "kind": "cube",
+   "strength": 2.5,
+   "tool": "pickaxe",
+   "element": "flame"
+  },
+  {
+   "id": "cinder_rune",
+   "name": "Flame Rune Block",
+   "kind": "glow",
+   "strength": 2.5,
+   "tool": "pickaxe",
+   "light": 13,
+   "element": "flame"
+  },
+  {
+   "id": "rime_bricks",
+   "name": "Rimeweave Bricks",
+   "kind": "cube",
+   "strength": 2.5,
+   "tool": "pickaxe",
+   "element": "frost"
+  },
+  {
+   "id": "rime_rune",
+   "name": "Frost Rune Block",
+   "kind": "glow",
+   "strength": 2.5,
+   "tool": "pickaxe",
+   "light": 13,
+   "element": "frost"
+  },
+  {
+   "id": "gale_bricks",
+   "name": "Galeguard Bricks",
+   "kind": "cube",
+   "strength": 2.5,
+   "tool": "pickaxe",
+   "element": "storm"
+  },
+  {
+   "id": "gale_rune",
+   "name": "Storm Rune Block",
+   "kind": "glow",
+   "strength": 2.5,
+   "tool": "pickaxe",
+   "light": 13,
+   "element": "storm"
+  },
+  {
+   "id": "thorn_bricks",
+   "name": "Thornbark Bricks",
+   "kind": "cube",
+   "strength": 2.5,
+   "tool": "pickaxe",
+   "element": "verdant"
+  },
+  {
+   "id": "thorn_rune",
+   "name": "Verdant Rune Block",
+   "kind": "glow",
+   "strength": 2.5,
+   "tool": "pickaxe",
+   "light": 13,
+   "element": "verdant"
+  },
+  {
+   "id": "null_bricks",
+   "name": "Nullveil Bricks",
+   "kind": "cube",
+   "strength": 2.5,
+   "tool": "pickaxe",
+   "element": "void"
+  },
+  {
+   "id": "null_rune",
+   "name": "Void Rune Block",
+   "kind": "glow",
+   "strength": 2.5,
+   "tool": "pickaxe",
+   "light": 13,
+   "element": "void"
+  },
+  {
+   "id": "rift_portal",
+   "name": "Rift Portal",
+   "kind": "portal",
+   "strength": -1,
+   "tool": "",
+   "light": 11
+  },
+  {
+   "id": "landmark_stone",
+   "name": "Landmark Stone",
+   "kind": "landmark",
+   "strength": -1,
+   "tool": "",
+   "light": 9
+  },
+  {
+   "id": "boss_altar",
+   "name": "Boss Altar",
+   "kind": "altar",
+   "strength": -1,
+   "tool": "",
+   "light": 7
+  }
+ ],
+ "sites": [
+  "altar_flame",
+  "altar_frost",
+  "altar_storm",
+  "altar_verdant",
+  "altar_void",
+  "cinderhold_gate",
+  "frostspire_gate",
+  "stormwatch_gate",
+  "elderroot_gate",
+  "observatory_gate",
+  "standing_stones",
+  "dragon_bones",
+  "watchtower",
+  "colossus",
+  "titans_arch",
+  "moonwell",
+  "rift_scar",
+  "crystal_cathedral",
+  "fallen_keep",
+  "rift_monolith",
+  "sky_bridge",
+  "ashen_bastion",
+  "frostwatch_hold",
+  "stormwatch_perch",
+  "grovekeepers_lodge",
+  "veiled_sanctum"
+ ],
+ "site_names": [
+  "the Altar of Flame",
+  "the Altar of Frost",
+  "the Altar of Storm",
+  "the Altar of Verdant",
+  "the Altar of Void",
+  "the Gates of Cinderhold",
+  "the Gates of Frostspire",
+  "the Gates of Stormwatch Aerie",
+  "the Gates of Elderroot",
+  "the Gates of the Hollow Observatory",
+  "the Standing Stones",
+  "the Dragon Bones",
+  "the Ruined Watchtower",
+  "the Sleeping Colossus",
+  "the Titan's Arch",
+  "the Moonwell",
+  "a Rift Scar",
+  "the Crystal Cathedral",
+  "the Fallen Keep",
+  "the Rift Monolith",
+  "the Sky Bridge",
+  "the Ashen Bastion",
+  "Frostwatch Hold",
+  "Stormwatch Perch",
+  "the Grovekeeper's Lodge",
+  "the Veiled Sanctum"
+ ],
+ "mobs": [
+  {
+   "id": "cinder_knight",
+   "name": "Cinder Knight",
+   "style": "knight",
+   "element": "flame"
+  },
+  {
+   "id": "ember_mage",
+   "name": "Ember Mage",
+   "style": "mage",
+   "element": "flame"
+  },
+  {
+   "id": "rime_wraith",
+   "name": "Rime Wraith",
+   "style": "wraith",
+   "element": "frost"
+  },
+  {
+   "id": "frost_crawler",
+   "name": "Frost Crawler",
+   "style": "spider",
+   "element": "frost"
+  },
+  {
+   "id": "gale_sentinel",
+   "name": "Gale Sentinel",
+   "style": "knight",
+   "element": "storm"
+  },
+  {
+   "id": "storm_sprite",
+   "name": "Storm Sprite",
+   "style": "sprite",
+   "element": "storm"
+  },
+  {
+   "id": "thorn_stalker",
+   "name": "Thorn Stalker",
+   "style": "spider",
+   "element": "verdant"
+  },
+  {
+   "id": "bark_guardian",
+   "name": "Bark Guardian",
+   "style": "golem",
+   "element": "verdant"
+  },
+  {
+   "id": "void_acolyte",
+   "name": "Void Acolyte",
+   "style": "mage",
+   "element": "void"
+  },
+  {
+   "id": "rift_stalker",
+   "name": "Rift Stalker",
+   "style": "stalker",
+   "element": "void"
+  },
+  {
+   "id": "rift_wraith",
+   "name": "Rift Wraith",
+   "style": "wraith",
+   "element": "void"
+  }
+ ],
+ "bosses": [
+  {
+   "id": "ignarax",
+   "name": "Ignarax, the Cinder Tyrant",
+   "element": "flame"
+  },
+  {
+   "id": "hrimgar",
+   "name": "Hrimgar, the Frozen Regent",
+   "element": "frost"
+  },
+  {
+   "id": "zephyra",
+   "name": "Zephyra, Tempest Queen",
+   "element": "storm"
+  },
+  {
+   "id": "sylvara",
+   "name": "Sylvara, the Thornmother",
+   "element": "verdant"
+  },
+  {
+   "id": "nyxoth",
+   "name": "Nyxoth, the Hollow Star",
+   "element": "void"
+  }
+ ],
+ "npcs": [
+  {
+   "id": "maera",
+   "name": "Maera",
+   "title": "Rift Sage",
+   "style": "sage"
+  },
+  {
+   "id": "brannoch",
+   "name": "Brannoch Ironwick",
+   "title": "Dwarven Smith",
+   "style": "smith"
+  },
+  {
+   "id": "quill",
+   "name": "Quill Mossfoot",
+   "title": "Wandering Merchant",
+   "style": "merchant"
+  },
+  {
+   "id": "kaelen",
+   "name": "Lord Kaelen Emberhart",
+   "title": "Warden of the Ashen Bastion",
+   "style": "flame_lord"
+  },
+  {
+   "id": "seraphine",
+   "name": "Seraphine Frostwhisper",
+   "title": "Keeper of Frostwatch",
+   "style": "frost_lady"
+  },
+  {
+   "id": "vaelor",
+   "name": "Captain Vaelor",
+   "title": "Stormwatch Skyreaver",
+   "style": "storm_captain"
+  },
+  {
+   "id": "elowen",
+   "name": "Elowen Oakshade",
+   "title": "Grove Druid",
+   "style": "druid"
+  },
+  {
+   "id": "ysmera",
+   "name": "Ysmera the Veiled",
+   "title": "Oracle of the Hollow Star",
+   "style": "oracle"
+  },
+  {
+   "id": "aldric_echo",
+   "name": "Echo of Aldric",
+   "title": "The Last King",
+   "style": "ghost_king"
+  }
+ ],
+ "particles": [
+  "rift_mote",
+  "ember_spark",
+  "frost_flake",
+  "storm_spark",
+  "leaf_wisp",
+  "void_wisp"
+ ],
+ "elements": [
+  "flame",
+  "frost",
+  "storm",
+  "verdant",
+  "void"
+ ],
+ "set_prefix": {
+  "flame": "cinder",
+  "frost": "rime",
+  "storm": "gale",
+  "verdant": "thorn",
+  "void": "null"
+ }
+}
