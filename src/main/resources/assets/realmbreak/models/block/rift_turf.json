@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "realmbreak:block/rift_turf_top",
+    "side": "realmbreak:block/rift_turf_side",
+    "bottom": "realmbreak:block/rift_turf_bottom"
+  }
+}

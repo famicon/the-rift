@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "realmbreak:block/riftstone_pillar_top",
+    "side": "realmbreak:block/riftstone_pillar"
+  }
+}
