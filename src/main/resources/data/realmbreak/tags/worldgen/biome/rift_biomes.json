@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "realmbreak:rift_meadow",
+    "realmbreak:ember_wastes",
+    "realmbreak:verdant_canopy",
+    "realmbreak:crystal_barrens",
+    "realmbreak:frost_expanse",
+    "realmbreak:storm_highlands",
+    "realmbreak:void_expanse"
+  ]
+}

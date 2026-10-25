@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_forest",
+    "#minecraft:is_jungle",
+    "#minecraft:is_taiga",
+    "minecraft:swamp",
+    "minecraft:cherry_grove",
+    "minecraft:dark_forest"
+  ]
+}
