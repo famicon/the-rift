@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "realmbreak:riftstone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "realmbreak:riftstone_bricks"
+  }
+}

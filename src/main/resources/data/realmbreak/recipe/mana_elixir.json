@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "realmbreak:rift_dust"
+    },
+    {
+      "item": "realmbreak:rift_dust"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "realmbreak:mana_elixir"
+  }
+}

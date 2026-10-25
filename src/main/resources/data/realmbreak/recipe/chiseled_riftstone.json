@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "S",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "realmbreak:riftstone_bricks"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "realmbreak:chiseled_riftstone"
+  }
+}

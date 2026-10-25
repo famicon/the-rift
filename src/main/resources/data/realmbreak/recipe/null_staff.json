@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " RE",
+    " SR",
+    "S  "
+  ],
+  "key": {
+    "E": {
+      "item": "realmbreak:void_essence"
+    },
+    "R": {
+      "item": "realmbreak:rift_shard"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "realmbreak:null_staff"
+  }
+}

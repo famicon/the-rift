@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " ES",
+    "R S",
+    " ES"
+  ],
+  "key": {
+    "E": {
+      "item": "realmbreak:frost_essence"
+    },
+    "R": {
+      "item": "realmbreak:rift_shard"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "realmbreak:rime_bow"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " E ",
+    "ERE",
+    " S "
+  ],
+  "key": {
+    "E": {
+      "item": "realmbreak:storm_essence"
+    },
+    "R": {
+      "item": "realmbreak:rift_shard"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "realmbreak:gale_sword"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RDR",
+    "DOD",
+    "RDR"
+  ],
+  "key": {
+    "R": {
+      "item": "realmbreak:rift_shard"
+    },
+    "D": {
+      "item": "realmbreak:rift_dust"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "realmbreak:rift_anchor"
+  }
+}

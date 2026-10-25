@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "E E",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "realmbreak:flame_essence"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "realmbreak:cinder_chestplate"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EDE",
+    "DRD",
+    "EDE"
+  ],
+  "key": {
+    "E": {
+      "item": "realmbreak:storm_essence"
+    },
+    "D": {
+      "item": "realmbreak:rift_dust"
+    },
+    "R": {
+      "item": "realmbreak:rift_shard"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "realmbreak:storm_sigil"
+  }
+}
