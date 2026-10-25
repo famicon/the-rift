@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "realmbreak:block/rift_portal_x"
+    },
+    "axis=z": {
+      "model": "realmbreak:block/rift_portal_z"
+    }
+  }
+}

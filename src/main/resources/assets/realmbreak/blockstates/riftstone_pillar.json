@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "realmbreak:block/riftstone_pillar"
+    },
+    "axis=x": {
+      "model": "realmbreak:block/riftstone_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "realmbreak:block/riftstone_pillar",
+      "x": 90
+    }
+  }
+}

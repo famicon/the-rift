@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "realmbreak:block/glimmerwood_log"
+    },
+    "axis=x": {
+      "model": "realmbreak:block/glimmerwood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "realmbreak:block/glimmerwood_log",
+      "x": 90
+    }
+  }
+}
