@@ -1,0 +1,96 @@
+{
+  "type": "realmbreak:the_rift",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "realmbreak:the_rift",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "realmbreak:rift_meadow",
+          "parameters": {
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.15
+          }
+        },
+        {
+          "biome": "realmbreak:ember_wastes",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.0,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "realmbreak:verdant_canopy",
+          "parameters": {
+            "temperature": 0.25,
+            "humidity": 0.43,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "realmbreak:crystal_barrens",
+          "parameters": {
+            "temperature": -0.25,
+            "humidity": 0.43,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "realmbreak:frost_expanse",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0.0,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "realmbreak:storm_highlands",
+          "parameters": {
+            "temperature": -0.25,
+            "humidity": -0.43,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "realmbreak:void_expanse",
+          "parameters": {
+            "temperature": 0.25,
+            "humidity": -0.43,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "weirdness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        }
+      ]
+    }
+  }
+}
