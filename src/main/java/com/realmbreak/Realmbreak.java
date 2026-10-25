@@ -46,6 +46,10 @@ public class Realmbreak implements ModInitializer {
         RealmCommands.register();
 
         for (String f : new String[]{"overworld_obelisk", "overworld_rock_spire", "overworld_islet"}) {
+            if (Realmbreak.class.getResource("/data/" + MOD_ID + "/worldgen/placed_feature/" + f + ".json") == null) {
+                LOGGER.warn("Realmbreak: placed feature '{}' is missing from the mod jar (incomplete upload?); skipping it.", f);
+                continue;
+            }
             BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Decoration.SURFACE_STRUCTURES,
                     ResourceKey.create(Registries.PLACED_FEATURE, Content.id(f)));
         }
