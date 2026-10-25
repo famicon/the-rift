@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "realmbreak:elderroot_sanctum",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 24,
+    "separation": 9,
+    "salt": 80527
+  }
+}

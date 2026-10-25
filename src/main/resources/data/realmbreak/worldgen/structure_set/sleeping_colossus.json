@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "realmbreak:sleeping_colossus",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 28,
+    "separation": 11,
+    "salt": 112203
+  }
+}

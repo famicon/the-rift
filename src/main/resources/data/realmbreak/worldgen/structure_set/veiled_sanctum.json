@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "realmbreak:veiled_sanctum",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 12,
+    "salt": 48851
+  }
+}
