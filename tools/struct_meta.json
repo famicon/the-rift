@@ -1,0 +1,245 @@
+{
+ "altar_of_flame": {
+  "blocks": 5808,
+  "ground": 16,
+  "size": [
+   35,
+   27,
+   35
+  ]
+ },
+ "altar_of_frost": {
+  "blocks": 6257,
+  "ground": 16,
+  "size": [
+   35,
+   28,
+   35
+  ]
+ },
+ "altar_of_storm": {
+  "blocks": 5864,
+  "ground": 16,
+  "size": [
+   35,
+   28,
+   35
+  ]
+ },
+ "altar_of_verdant": {
+  "blocks": 6640,
+  "ground": 16,
+  "size": [
+   37,
+   32,
+   35
+  ]
+ },
+ "altar_of_void": {
+  "blocks": 5946,
+  "ground": 16,
+  "size": [
+   35,
+   29,
+   35
+  ]
+ },
+ "ashen_bastion": {
+  "blocks": 10274,
+  "ground": 3,
+  "size": [
+   42,
+   23,
+   42
+  ]
+ },
+ "cinderhold_citadel": {
+  "blocks": 231882,
+  "ground": 16,
+  "size": [
+   81,
+   82,
+   82
+  ]
+ },
+ "crystal_cathedral": {
+  "blocks": 70276,
+  "ground": 24,
+  "size": [
+   73,
+   68,
+   75
+  ]
+ },
+ "dragon_bones": {
+  "blocks": 7349,
+  "ground": 3,
+  "size": [
+   31,
+   16,
+   71
+  ]
+ },
+ "elderroot_sanctum": {
+  "blocks": 168383,
+  "ground": 16,
+  "size": [
+   85,
+   86,
+   89
+  ]
+ },
+ "fallen_keep": {
+  "blocks": 25314,
+  "ground": 20,
+  "size": [
+   49,
+   40,
+   49
+  ]
+ },
+ "frostspire_vault": {
+  "blocks": 150866,
+  "ground": 16,
+  "size": [
+   77,
+   107,
+   81
+  ]
+ },
+ "frostwatch_hold": {
+  "blocks": 10473,
+  "ground": 3,
+  "size": [
+   42,
+   23,
+   42
+  ]
+ },
+ "grovekeepers_lodge": {
+  "blocks": 11848,
+  "ground": 3,
+  "size": [
+   42,
+   23,
+   42
+  ]
+ },
+ "hollow_observatory": {
+  "blocks": 179777,
+  "ground": 34,
+  "size": [
+   87,
+   114,
+   87
+  ]
+ },
+ "moonwell_shrine": {
+  "blocks": 4313,
+  "ground": 3,
+  "size": [
+   37,
+   16,
+   32
+  ]
+ },
+ "rift_monolith": {
+  "blocks": 3568,
+  "ground": 14,
+  "size": [
+   27,
+   51,
+   27
+  ]
+ },
+ "rift_scar": {
+  "blocks": 4149,
+  "ground": 3,
+  "size": [
+   36,
+   19,
+   36
+  ]
+ },
+ "ruined_watchtower": {
+  "blocks": 5432,
+  "ground": 3,
+  "size": [
+   30,
+   31,
+   30
+  ]
+ },
+ "sky_bridge": {
+  "blocks": 6434,
+  "ground": 12,
+  "size": [
+   89,
+   36,
+   23
+  ]
+ },
+ "sleeping_colossus": {
+  "blocks": 16572,
+  "ground": 3,
+  "size": [
+   45,
+   17,
+   84
+  ]
+ },
+ "standing_stone_ring": {
+  "blocks": 4204,
+  "ground": 3,
+  "size": [
+   40,
+   14,
+   40
+  ]
+ },
+ "stormwatch_aerie": {
+  "blocks": 178047,
+  "ground": 14,
+  "size": [
+   71,
+   105,
+   81
+  ]
+ },
+ "stormwatch_perch": {
+  "blocks": 10308,
+  "ground": 3,
+  "size": [
+   42,
+   23,
+   42
+  ]
+ },
+ "titans_arch": {
+  "blocks": 19166,
+  "ground": 3,
+  "size": [
+   61,
+   40,
+   25
+  ]
+ },
+ "veiled_sanctum": {
+  "blocks": 10290,
+  "ground": 3,
+  "size": [
+   42,
+   23,
+   42
+  ]
+ },
+ "wayfarers_camp": {
+  "blocks": 5230,
+  "ground": 3,
+  "size": [
+   40,
+   10,
+   40
+  ]
+ }
+}
